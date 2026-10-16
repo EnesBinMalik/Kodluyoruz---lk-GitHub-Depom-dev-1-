@@ -1,0 +1,7 @@
+{
+  "name": "Kodluyoruz - İlk GitHub Depom (Ödev 1)",
+  "description": "Kodluyoruz Frontend 101 Eğitimi Ödev 1: GitHub Repo İşlemleri, kodluyoruzilkrepo teslim asistanı ve interaktif Git rehberi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
