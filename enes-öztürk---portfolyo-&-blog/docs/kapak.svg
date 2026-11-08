@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Enes Öztürk — Portfolyo &amp; Blog — Enes Öztürk">
+<title>Enes Öztürk — Portfolyo &amp; Blog · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E2E8F0"/><stop offset="60%" stop-color="#7DD3FC"/><stop offset="100%" stop-color="#7DD3FC" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E2E8F0" stop-opacity="0.30"/><stop offset="100%" stop-color="#E2E8F0" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7DD3FC" stop-opacity="0.26"/><stop offset="100%" stop-color="#7DD3FC" stop-opacity="0"/></radialGradient>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">07 · PORTFOLYO</text><text x="1224" y="46" text-anchor="end" fill="#E2E8F0" fill-opacity="0.9">KİŞİSEL SİTE</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="150" class="cap" font-size="12" fill="#7DD3FC">MERHABA, BEN</text>
+<text x="56" y="228" class="ttl" font-size="82" fill="#F8FAFC">Enes Öztürk</text>
+<text x="60" y="268" class="t" font-size="19" fill="#8FA0BD">
+Bilgisayar Programcılığı Öğrencisi · IoT &amp; Yazılım Geliştirici</text>
+<rect x="60" y="292" width="70" height="2" fill="#7DD3FC" fill-opacity="0.7"/>
+<text x="56" y="344" class="t" font-size="15" fill="#94A3B8">
+Projeler · deneyim · yazılar — hepsi tek sayfada</text>
+<rect x="56" y="372" width="150" height="46" rx="23" fill="#7DD3FC" fill-opacity="0.16" stroke="#7DD3FC" stroke-opacity="0.6"/>
+<text x="131" y="401" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="#7DD3FC">Projelerim</text>
+<rect x="222" y="372" width="150" height="46" rx="23" fill="#0E1521" stroke="#2A3448"/>
+<text x="297" y="401" text-anchor="middle" class="t" font-size="14" fill="#C7D2E0">İletişim</text>
+<rect x="56" y="452" width="176" height="150" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<rect x="56" y="452" width="176" height="70" rx="14" fill="#D4AF37" fill-opacity="0.10"/>
+<circle cx="144" cy="487" r="20" fill="none" stroke="#D4AF37" stroke-opacity="0.6" stroke-width="1.6"/>
+<text x="72" y="556" class="t" font-size="14" font-weight="600" fill="#EAF1F8">Atelier</text>
+<text x="72" y="578" class="m" font-size="11" fill="#6B7C93">E-ticaret</text>
+<rect x="252" y="452" width="176" height="150" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<rect x="252" y="452" width="176" height="70" rx="14" fill="#4ADE80" fill-opacity="0.10"/>
+<circle cx="340" cy="487" r="20" fill="none" stroke="#4ADE80" stroke-opacity="0.6" stroke-width="1.6"/>
+<text x="268" y="556" class="t" font-size="14" font-weight="600" fill="#EAF1F8">VKİ Rehberi</text>
+<text x="268" y="578" class="m" font-size="11" fill="#6B7C93">Sağlık</text>
+<rect x="448" y="452" width="176" height="150" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<rect x="448" y="452" width="176" height="70" rx="14" fill="#F7931A" fill-opacity="0.10"/>
+<circle cx="536" cy="487" r="20" fill="none" stroke="#F7931A" stroke-opacity="0.6" stroke-width="1.6"/>
+<text x="464" y="556" class="t" font-size="14" font-weight="600" fill="#EAF1F8">Kripto Takip</text>
+<text x="464" y="578" class="m" font-size="11" fill="#6B7C93">Finans</text>
+<rect x="686" y="132" width="538" height="470" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>
+<text x="712" y="168" class="t" font-size="12" fill="#7DD3FC" letter-spacing="2">SON YAZILAR</text>
+<circle cx="720" cy="202" r="4" fill="#7DD3FC"/>
+<text x="738" y="208" class="t" font-size="15" fill="#EAF1F8">Vektörlerin gizli dünyası</text>
+<text x="738" y="228" class="m" font-size="11" fill="#6B7C93">3 dk · matematik</text>
+<line x1="712" y1="246" x2="1198" y2="246" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<circle cx="720" cy="268" r="4" fill="#7DD3FC"/>
+<text x="738" y="274" class="t" font-size="15" fill="#EAF1F8">React'te durum yönetimi</text>
+<text x="738" y="294" class="m" font-size="11" fill="#6B7C93">6 dk · frontend</text>
+<line x1="712" y1="312" x2="1198" y2="312" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<circle cx="720" cy="334" r="4" fill="#7DD3FC"/>
+<text x="738" y="340" class="t" font-size="15" fill="#EAF1F8">Rust sahiplik modeli</text>
+<text x="738" y="360" class="m" font-size="11" fill="#6B7C93">5 dk · sistem</text>
+<line x1="712" y1="378" x2="1198" y2="378" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<circle cx="720" cy="400" r="4" fill="#7DD3FC"/>
+<text x="738" y="406" class="t" font-size="15" fill="#EAF1F8">Solana'da PDA türetimi</text>
+<text x="738" y="426" class="m" font-size="11" fill="#6B7C93">8 dk · web3</text>
+<line x1="712" y1="444" x2="1198" y2="444" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="712" y="524" class="m" font-size="11" fill="#4E5768">React Router · Signature bileşeni</text>
+<text x="712" y="544" class="m" font-size="11" fill="#4E5768">ContactModal · ProjectModal</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#7DD3FC">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

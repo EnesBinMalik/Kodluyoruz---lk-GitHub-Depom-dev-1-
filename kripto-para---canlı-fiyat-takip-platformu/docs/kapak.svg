@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Kripto Para — Canlı Fiyat Takip — Enes Öztürk">
+<title>Kripto Para — Canlı Fiyat Takip · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F7931A"/><stop offset="60%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F7931A" stop-opacity="0.30"/><stop offset="100%" stop-color="#F7931A" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.26"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">06 · KRİPTO</text><text x="1224" y="46" text-anchor="end" fill="#F7931A" fill-opacity="0.9">FİNANS</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="178" class="ttl" font-size="66" fill="#F4F7FB">Canlı Piyasa</text>
+<text x="60" y="216" class="t" font-size="17" fill="#8FA0BD" letter-spacing="3">KRİPTO TAKİP · PORTFÖY</text>
+<rect x="60" y="238" width="70" height="2" fill="#F7931A" fill-opacity="0.75"/>
+<rect x="56" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<circle cx="90" cy="312" r="16" fill="#F7931A" fill-opacity="0.18" stroke="#F7931A" stroke-opacity="0.55"/>
+<text x="90" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#F7931A">B</text>
+<text x="116" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">BTC</text>
+<text x="116" y="328" class="t" font-size="11" fill="#6B7C93">Bitcoin</text>
+<text x="74" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$68.412</text>
+<text x="74" y="390" class="m" font-size="12" fill="#4ADE80">+2,41%</text>
+<polyline points="152,378 159,371 166,364 173,378 180,371 187,364 194,378 201,371 208,364 215,378 222,371 229,364" fill="none" stroke="#4ADE80" stroke-width="1.8" stroke-opacity="0.85"/>
+<rect x="252" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<circle cx="286" cy="312" r="16" fill="#8FA6FF" fill-opacity="0.18" stroke="#8FA6FF" stroke-opacity="0.55"/>
+<text x="286" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#8FA6FF">E</text>
+<text x="312" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">ETH</text>
+<text x="312" y="328" class="t" font-size="11" fill="#6B7C93">Ethereum</text>
+<text x="270" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$3.284</text>
+<text x="270" y="390" class="m" font-size="12" fill="#4ADE80">+1,08%</text>
+<polyline points="348,378 355,371 362,364 369,378 376,371 383,364 390,378 397,371 404,364 411,378 418,371 425,364" fill="none" stroke="#4ADE80" stroke-width="1.8" stroke-opacity="0.85"/>
+<rect x="448" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<circle cx="482" cy="312" r="16" fill="#14F195" fill-opacity="0.18" stroke="#14F195" stroke-opacity="0.55"/>
+<text x="482" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#14F195">S</text>
+<text x="508" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">SOL</text>
+<text x="508" y="328" class="t" font-size="11" fill="#6B7C93">Solana</text>
+<text x="466" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$184,20</text>
+<text x="466" y="390" class="m" font-size="12" fill="#F87171">-0,62%</text>
+<polyline points="544,378 551,371 558,364 565,378 572,371 579,364 586,378 593,371 600,364 607,378 614,371 621,364" fill="none" stroke="#F87171" stroke-width="1.8" stroke-opacity="0.85"/>
+<rect x="644" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
+<circle cx="678" cy="312" r="16" fill="#E84142" fill-opacity="0.18" stroke="#E84142" stroke-opacity="0.55"/>
+<text x="678" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#E84142">A</text>
+<text x="704" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">AVAX</text>
+<text x="704" y="328" class="t" font-size="11" fill="#6B7C93">Avalanche</text>
+<text x="662" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$41,88</text>
+<text x="662" y="390" class="m" font-size="12" fill="#4ADE80">+4,15%</text>
+<polyline points="740,378 747,371 754,364 761,378 768,371 775,364 782,378 789,371 796,364 803,378 810,371 817,364" fill="none" stroke="#4ADE80" stroke-width="1.8" stroke-opacity="0.85"/>
+<rect x="56" y="432" width="748" height="206" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>
+<text x="80" y="464" class="t" font-size="13" fill="#8FA0BD" letter-spacing="2">BTC / TRY · 24 SAAT</text>
+<text x="80" y="498" class="t" font-size="26" font-weight="700" fill="#EAF1F8">₺2.184.500</text>
+<text x="256" y="496" class="m" font-size="12" fill="#4ADE80">+2,41%</text>
+<polyline points="86,579 114,580 141,574 169,568 196,576 224,574 251,560 279,563 306,568 334,562 361,556 389,563 416,547 444,551 471,554 499,556 526,553 554,546 581,544 609,547 636,543 664,543 691,534 719,534 746,538 774,570" fill="none" stroke="#F7931A" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon points="86,579 114,580 141,574 169,568 196,576 224,574 251,560 279,563 306,568 334,562 361,556 389,563 416,547 444,551 471,554 499,556 526,553 554,546 581,544 609,547 636,543 664,543 691,534 719,534 746,538 774,570 774,602 86,602" fill="#F7931A" fill-opacity="0.12"/>
+<line x1="86" y1="602" x2="774" y2="602" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<rect x="828" y="278" width="396" height="360" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>
+<text x="852" y="310" class="t" font-size="12" fill="#22D3EE" letter-spacing="2">DÖNÜŞTÜRÜCÜ</text>
+<rect x="852" y="326" width="348" height="46" rx="10" fill="#080E17" stroke="#1E2B3D"/>
+<text x="870" y="355" class="t" font-size="15" fill="#EAF1F8">1 BTC</text>
+<text x="1182" y="355" text-anchor="end" class="m" font-size="12" fill="#6B7C93">BTC</text>
+<text x="1026.0" y="402" text-anchor="middle" class="m" font-size="13" fill="#F7931A">⇅</text>
+<rect x="852" y="414" width="348" height="46" rx="10" fill="#080E17" stroke="#1E2B3D"/>
+<text x="870" y="443" class="t" font-size="15" fill="#EAF1F8">2.184.500 TRY</text>
+<text x="1182" y="443" text-anchor="end" class="m" font-size="12" fill="#6B7C93">TRY</text>
+<line x1="852" y1="482" x2="1200" y2="482" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<text x="852" y="512" class="t" font-size="12" fill="#22D3EE" letter-spacing="2">PORTFÖY</text>
+<text x="852" y="540" class="t" font-size="13" fill="#B9C6D6">BTC</text>
+<text x="1200" y="540" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">0,42 · ₺917.490</text>
+<text x="852" y="570" class="t" font-size="13" fill="#B9C6D6">ETH</text>
+<text x="1200" y="570" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">3,10 · ₺318.700</text>
+<text x="852" y="600" class="t" font-size="13" fill="#B9C6D6">SOL</text>
+<text x="1200" y="600" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">18 · ₺103.560</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#F7931A">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

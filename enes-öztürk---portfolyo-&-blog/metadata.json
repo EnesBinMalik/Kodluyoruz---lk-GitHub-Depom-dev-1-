@@ -1,0 +1,6 @@
+{
+  "name": "Enes Öztürk - Portfolyo & Blog",
+  "description": "Enes Öztürk kişisel portfolyo, yazılım projeleri, iş deneyimleri ve teknik blog platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

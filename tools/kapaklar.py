@@ -280,6 +280,190 @@ def rozet(ad: str, no: str, c1: str, c2: str) -> str:
     return "\n".join(L) + "\n"
 
 
+
+# ————————————————————————— KRİPTO —————————————————————————
+def kripto() -> str:
+    import math
+    W, H = 1280, 720
+    C1, C2 = "#F7931A", "#22D3EE"
+    L = base(W, H, "Kripto Para — Canlı Fiyat Takip", C1, C2, "FİNANS", "06 · KRİPTO", with_grid=True)
+    a = L.append
+    a(f'<text x="56" y="178" class="ttl" font-size="66" fill="#F4F7FB">Canlı Piyasa</text>')
+    a(f'<text x="60" y="216" class="t" font-size="17" fill="#8FA0BD" letter-spacing="3">KRİPTO TAKİP · PORTFÖY</text>')
+    a(f'<rect x="60" y="238" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+
+    # coin kartları
+    coins = [("BTC", "Bitcoin", "$68.412", "+2,41%", "#F7931A"),
+             ("ETH", "Ethereum", "$3.284", "+1,08%", "#8FA6FF"),
+             ("SOL", "Solana", "$184,20", "-0,62%", "#14F195"),
+             ("AVAX", "Avalanche", "$41,88", "+4,15%", "#E84142")]
+    for i, (sym, name, price, chg, col) in enumerate(coins):
+        x = 56 + i * 196
+        up = chg.startswith("+")
+        a(f'<rect x="{x}" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>')
+        a(f'<circle cx="{x+34}" cy="312" r="16" fill="{col}" fill-opacity="0.18" stroke="{col}" stroke-opacity="0.55"/>')
+        a(f'<text x="{x+34}" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="{col}">{sym[0]}</text>')
+        a(f'<text x="{x+60}" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">{sym}</text>')
+        a(f'<text x="{x+60}" y="328" class="t" font-size="11" fill="#6B7C93">{name}</text>')
+        a(f'<text x="{x+18}" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">{price}</text>')
+        c = "#4ADE80" if up else "#F87171"
+        a(f'<text x="{x+18}" y="390" class="m" font-size="12" fill="{c}">{chg}</text>')
+        # sparkline
+        pts = []
+        for k in range(12):
+            v = 16 + (k * 3) % 9 + (k % 3) * 4
+            pts.append(f"{x+96+k*7},{394-v}")
+        a(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{c}" stroke-width="1.8" stroke-opacity="0.85"/>')
+
+    # ana grafik paneli
+    px, py, pw, ph = 56, 432, 748, 206
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>')
+    a(f'<text x="{px+24}" y="{py+32}" class="t" font-size="13" fill="#8FA0BD" letter-spacing="2">BTC / TRY · 24 SAAT</text>')
+    a(f'<text x="{px+24}" y="{py+66}" class="t" font-size="26" font-weight="700" fill="#EAF1F8">₺2.184.500</text>')
+    a(f'<text x="{px+200}" y="{py+64}" class="m" font-size="12" fill="#4ADE80">+2,41%</text>')
+    # alan grafiği
+    import random
+    random.seed(7)
+    base_y = py + 170
+    pts = []
+    for k in range(26):
+        x = px + 30 + k * ((pw - 60) / 25)
+        y = base_y - 18 - (k * 1.9) % 46 - random.randint(0, 14)
+        pts.append((x, y))
+    line = " ".join(f"{x:.0f},{y:.0f}" for x, y in pts)
+    a(f'<polyline points="{line}" fill="none" stroke="{C1}" stroke-width="2.4" stroke-linejoin="round"/>')
+    a(f'<polygon points="{line} {pts[-1][0]:.0f},{base_y} {pts[0][0]:.0f},{base_y}" fill="{C1}" fill-opacity="0.12"/>')
+    a(f'<line x1="{px+30}" y1="{base_y}" x2="{px+pw-30}" y2="{base_y}" stroke="#FFFFFF" stroke-opacity="0.08"/>')
+
+    # sağ: dönüştürücü + portföy
+    sx, sy, sw, sh = 828, 278, 396, 360
+    a(f'<rect x="{sx}" y="{sy}" width="{sw}" height="{sh}" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>')
+    a(f'<text x="{sx+24}" y="{sy+32}" class="t" font-size="12" fill="{C2}" letter-spacing="2">DÖNÜŞTÜRÜCÜ</text>')
+    a(f'<rect x="{sx+24}" y="{sy+48}" width="{sw-48}" height="46" rx="10" fill="#080E17" stroke="#1E2B3D"/>')
+    a(f'<text x="{sx+42}" y="{sy+77}" class="t" font-size="15" fill="#EAF1F8">1 BTC</text>')
+    a(f'<text x="{sx+sw-42}" y="{sy+77}" text-anchor="end" class="m" font-size="12" fill="#6B7C93">BTC</text>')
+    a(f'<text x="{sx+sw/2}" y="{sy+124}" text-anchor="middle" class="m" font-size="13" fill="{C1}">⇅</text>')
+    a(f'<rect x="{sx+24}" y="{sy+136}" width="{sw-48}" height="46" rx="10" fill="#080E17" stroke="#1E2B3D"/>')
+    a(f'<text x="{sx+42}" y="{sy+165}" class="t" font-size="15" fill="#EAF1F8">2.184.500 TRY</text>')
+    a(f'<text x="{sx+sw-42}" y="{sy+165}" text-anchor="end" class="m" font-size="12" fill="#6B7C93">TRY</text>')
+    a(f'<line x1="{sx+24}" y1="{sy+204}" x2="{sx+sw-24}" y2="{sy+204}" stroke="#FFFFFF" stroke-opacity="0.08"/>')
+    a(f'<text x="{sx+24}" y="{sy+234}" class="t" font-size="12" fill="{C2}" letter-spacing="2">PORTFÖY</text>')
+    for i, (n, v) in enumerate([("BTC", "0,42 · ₺917.490"), ("ETH", "3,10 · ₺318.700"), ("SOL", "18 · ₺103.560")]):
+        y = sy + 262 + i * 30
+        a(f'<text x="{sx+24}" y="{y}" class="t" font-size="13" fill="#B9C6D6">{n}</text>')
+        a(f'<text x="{sx+sw-24}" y="{y}" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">{v}</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— PORTFOLYO & BLOG —————————————————————————
+def portfolyo() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#E2E8F0", "#7DD3FC"
+    L = base(W, H, "Enes Öztürk — Portfolyo & Blog", C1, C2, "KİŞİSEL SİTE", "07 · PORTFOLYO", with_grid=False)
+    a = L.append
+    a(f'<text x="56" y="150" class="cap" font-size="12" fill="{C2}">MERHABA, BEN</text>')
+    a(f'<text x="56" y="228" class="ttl" font-size="82" fill="#F8FAFC">Enes Öztürk</text>')
+    a(f'<text x="60" y="268" class="t" font-size="19" fill="#8FA0BD">')
+    a('Bilgisayar Programcılığı Öğrencisi · IoT &amp; Yazılım Geliştirici</text>')
+    a(f'<rect x="60" y="292" width="70" height="2" fill="{C2}" fill-opacity="0.7"/>')
+    a(f'<text x="56" y="344" class="t" font-size="15" fill="#94A3B8">')
+    a('Projeler · deneyim · yazılar — hepsi tek sayfada</text>')
+    # düğmeler
+    a(f'<rect x="56" y="372" width="150" height="46" rx="23" fill="{C2}" fill-opacity="0.16" stroke="{C2}" stroke-opacity="0.6"/>')
+    a(f'<text x="131" y="401" text-anchor="middle" class="t" font-size="14" font-weight="600" fill="{C2}">Projelerim</text>')
+    a('<rect x="222" y="372" width="150" height="46" rx="23" fill="#0E1521" stroke="#2A3448"/>')
+    a('<text x="297" y="401" text-anchor="middle" class="t" font-size="14" fill="#C7D2E0">İletişim</text>')
+
+    # proje kartları
+    projs = [("Atelier", "E-ticaret", "#D4AF37"), ("VKİ Rehberi", "Sağlık", "#4ADE80"),
+             ("Kripto Takip", "Finans", "#F7931A")]
+    for i, (n, k, col) in enumerate(projs):
+        x = 56 + i * 196
+        a(f'<rect x="{x}" y="452" width="176" height="150" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>')
+        a(f'<rect x="{x}" y="452" width="176" height="70" rx="14" fill="{col}" fill-opacity="0.10"/>')
+        a(f'<circle cx="{x+88}" cy="487" r="20" fill="none" stroke="{col}" stroke-opacity="0.6" stroke-width="1.6"/>')
+        a(f'<text x="{x+16}" y="556" class="t" font-size="14" font-weight="600" fill="#EAF1F8">{n}</text>')
+        a(f'<text x="{x+16}" y="578" class="m" font-size="11" fill="#6B7C93">{k}</text>')
+
+    # sağ: blog listesi
+    bx, by, bw, bh = 686, 132, 538, 470
+    a(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>')
+    a(f'<text x="{bx+26}" y="{by+36}" class="t" font-size="12" fill="{C2}" letter-spacing="2">SON YAZILAR</text>')
+    posts = [("Vektörlerin gizli dünyası", "3 dk · matematik"),
+             ("React\'te durum yönetimi", "6 dk · frontend"),
+             ("Rust sahiplik modeli", "5 dk · sistem"),
+             ("Solana\'da PDA türetimi", "8 dk · web3")]
+    for i, (t, m) in enumerate(posts):
+        y = by + 76 + i * 66
+        a(f'<circle cx="{bx+34}" cy="{y-6}" r="4" fill="{C2}"/>')
+        a(f'<text x="{bx+52}" y="{y}" class="t" font-size="15" fill="#EAF1F8">{t}</text>')
+        a(f'<text x="{bx+52}" y="{y+20}" class="m" font-size="11" fill="#6B7C93">{m}</text>')
+        a(f'<line x1="{bx+26}" y1="{y+38}" x2="{bx+bw-26}" y2="{y+38}" stroke="#FFFFFF" stroke-opacity="0.05"/>')
+    a(f'<text x="{bx+26}" y="{by+392}" class="m" font-size="11" fill="#4E5768">React Router · Signature bileşeni</text>')
+    a(f'<text x="{bx+26}" y="{by+412}" class="m" font-size="11" fill="#4E5768">ContactModal · ProjectModal</text>')
+    footer(L, W, H, C2)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— GERÇEK ZAMANLI CHAT —————————————————————————
+def chat() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#34D399", "#818CF8"
+    L = base(W, H, "Gerçek Zamanlı Chat Uygulaması", C1, C2, "SOCKET.IO", "08 · CHAT")
+    a = L.append
+    a(f'<text x="56" y="178" class="ttl" font-size="64" fill="#EAF7F3">Gerçek Zamanlı Chat</text>')
+    a(f'<text x="60" y="216" class="t" font-size="17" fill="#8FB3AC" letter-spacing="3">SOCKET.IO · ODA · ANLIK</text>')
+    a(f'<rect x="60" y="238" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    a(f'<text x="56" y="298" class="t" font-size="15" fill="#8FB3AC">Kullanıcı adı · oda seçimi · anlık mesaj · ses efekti</text>')
+
+    # sohbet paneli
+    px, py, pw, ph = 56, 330, 760, 300
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#0C1517" fill-opacity="0.95" stroke="#1E3234"/>')
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="46" rx="16" fill="#0A1113"/><rect x="{px}" y="{py+30}" width="{pw}" height="16" fill="#0A1113"/>')
+    a(f'<line x1="{px}" y1="{py+46}" x2="{px+pw}" y2="{py+46}" stroke="#1E3234"/>')
+    a(f'<circle cx="{px+28}" cy="{py+23}" r="5" fill="{C1}"/>')
+    a(f'<text x="{px+44}" y="{py+28}" class="t" font-size="13" fill="#CFE5E0"># genel · 4 kişi çevrimiçi</text>')
+    msgs = [("Enes", "Sunucu ayakta mı?", "#818CF8", False),
+            ("Zeynep", "Evet, socket bağlı ✓", "#34D399", True),
+            ("Enes", "Odaya 3 kişi katıldı", "#818CF8", False),
+            ("Mert", "Mesajlar anlık düşüyor, güzel", "#FBBF24", True)]
+    y = py + 84
+    for who, text, col, left in msgs:
+        if left:
+            a(f'<rect x="{px+24}" y="{y-22}" width="{min(420, 16+len(text)*7.4)}" height="40" rx="12" fill="#101C1F" stroke="#1E3234"/>')
+            a(f'<text x="{px+38}" y="{y-6}" class="m" font-size="10.5" fill="{col}">{who}</text>')
+            a(f'<text x="{px+38}" y="{y+11}" class="t" font-size="13" fill="#DDEAE7">{text}</text>')
+        else:
+            w = min(420, 16 + len(text) * 7.4)
+            a(f'<rect x="{px+pw-24-w}" y="{y-22}" width="{w}" height="40" rx="12" fill="{C1}" fill-opacity="0.14" stroke="{C1}" stroke-opacity="0.4"/>')
+            a(f'<text x="{px+pw-24-w+14}" y="{y-6}" class="m" font-size="10.5" fill="{C1}">{who}</text>')
+            a(f'<text x="{px+pw-24-w+14}" y="{y+11}" class="t" font-size="13" fill="#EAF7F3">{text}</text>')
+        y += 54
+    # mesaj girişi
+    a(f'<rect x="{px+24}" y="{py+ph-56}" width="{pw-160}" height="38" rx="19" fill="#080F11" stroke="#1E3234"/>')
+    a(f'<text x="{px+44}" y="{py+ph-31}" class="t" font-size="12.5" fill="#5C716E">Mesaj yaz…</text>')
+    a(f'<rect x="{px+pw-124}" y="{py+ph-56}" width="100" height="38" rx="19" fill="{C1}" fill-opacity="0.18" stroke="{C1}" stroke-opacity="0.6"/>')
+    a(f'<text x="{px+pw-74}" y="{py+ph-31}" text-anchor="middle" class="t" font-size="12.5" font-weight="600" fill="{C1}">Gönder</text>')
+
+    # sağ: bağlantı paneli
+    sx, sy, sw, sh = 840, 330, 384, 300
+    a(f'<rect x="{sx}" y="{sy}" width="{sw}" height="{sh}" rx="16" fill="#0C1517" fill-opacity="0.95" stroke="#1E3234"/>')
+    a(f'<text x="{sx+24}" y="{sy+34}" class="t" font-size="12" fill="{C2}" letter-spacing="2">BAĞLANTI</text>')
+    rows = [("socket.io", "bağlı", C1), ("oda", "#genel", "#EAF7F3"),
+            ("kullanıcı", "Enes", "#EAF7F3"), ("gecikme", "18 ms", C1)]
+    for i, (k, v, col) in enumerate(rows):
+        y = sy + 70 + i * 36
+        a(f'<text x="{sx+24}" y="{y}" class="m" font-size="11.5" fill="#5C716E">{k}</text>')
+        a(f'<text x="{sx+sw-24}" y="{y}" text-anchor="end" class="m" font-size="12" fill="{col}">{v}</text>')
+        a(f'<line x1="{sx+24}" y1="{y+14}" x2="{sx+sw-24}" y2="{y+14}" stroke="#FFFFFF" stroke-opacity="0.05"/>')
+    a(f'<text x="{sx+24}" y="{sy+sh-40}" class="m" font-size="11" fill="#41534F">React · Node.js · Socket.io · tsx</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
 PROJECTS = [
     ("enes-öztürk-atelier-_-lüks-giyim-&-e-ticaret", "Atelier — Lüks Giyim", "03",
      "#D4AF37", "#8B7355", atelier),
@@ -287,6 +471,12 @@ PROJECTS = [
      "#7DD3FC", "#FDE68A", notdefteri),
     ("vücut-kitle-endeksi-&-diyet-rehberi", "VKİ & Diyet Rehberi", "05",
      "#4ADE80", "#38BDF8", vki),
+    ("kripto-para---canlı-fiyat-takip-platformu", "Kripto Takip", "06",
+     "#F7931A", "#22D3EE", kripto),
+    ("enes-öztürk---portfolyo-&-blog", "Portfolyo & Blog", "07",
+     "#E2E8F0", "#7DD3FC", portfolyo),
+    ("gerçek-zamanlı-chat-uygulaması", "Gerçek Zamanlı Chat", "08",
+     "#34D399", "#818CF8", chat),
 ]
 
 

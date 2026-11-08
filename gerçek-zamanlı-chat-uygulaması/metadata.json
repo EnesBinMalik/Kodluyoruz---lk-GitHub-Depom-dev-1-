@@ -1,0 +1,6 @@
+{
+  "name": "Gerçek Zamanlı Chat Uygulaması",
+  "description": "React, Node.js ve Socket.io ile geliştirilmiş modern, hızlı ve gerçek zamanlı mesajlaşma uygulaması - Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

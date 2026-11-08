@@ -17,6 +17,9 @@ Kodluyoruz Frontend 101 Eğitimi Ödev 1: GitHub Repo İşlemleri, kodluyoruzilk
 | 03 | [Atelier — Lüks Giyim & E-Ticaret](enes-öztürk-atelier-_-lüks-giyim-&-e-ticaret) | E-ticaret vitrini | `docs/kapak.svg` |
 | 04 | [Not Defteri](not-defteri---enes-öztürk) | Not tutma uygulaması | `docs/kapak.svg` |
 | 05 | [VKİ & Diyet Rehberi](vücut-kitle-endeksi-&-diyet-rehberi) | Sağlık asistanı | `docs/kapak.svg` |
+| 06 | [Kripto Para — Canlı Fiyat Takip](kripto-para---canlı-fiyat-takip-platformu) | Finans paneli | `docs/kapak.svg` |
+| 07 | [Portfolyo & Blog](enes-öztürk---portfolyo-&-blog) | Kişisel site | `docs/kapak.svg` |
+| 08 | [Gerçek Zamanlı Chat](gerçek-zamanlı-chat-uygulaması) | Socket.io sohbet | `docs/kapak.svg` |
 
 Her proje kendi klasöründe bağımsız çalışır: `cd <klasör> && npm install && npm run dev`.
 

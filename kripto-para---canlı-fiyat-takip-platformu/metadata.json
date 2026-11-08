@@ -1,0 +1,6 @@
+{
+  "name": "Kripto Para - Canlı Fiyat Takip Platformu",
+  "description": "Enes Öztürk imzalı gerçek zamanlı kripto para fiyat takip, arama, portföy ve piyasa analiz uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
