@@ -1,0 +1,6 @@
+{
+  "name": "Not Defteri - Enes Öztürk",
+  "description": "Modern, yerel depolama (localStorage) destekli, renkli ve kategorili not tutma uygulaması. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

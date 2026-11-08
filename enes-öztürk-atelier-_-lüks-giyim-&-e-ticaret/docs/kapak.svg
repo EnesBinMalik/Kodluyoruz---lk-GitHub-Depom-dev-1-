@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Atelier — Lüks Giyim &amp; E-Ticaret — Enes Öztürk">
+<title>Atelier — Lüks Giyim &amp; E-Ticaret · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D4AF37"/><stop offset="60%" stop-color="#8B7355"/><stop offset="100%" stop-color="#8B7355" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#D4AF37" stop-opacity="0.30"/><stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8B7355" stop-opacity="0.26"/><stop offset="100%" stop-color="#8B7355" stop-opacity="0"/></radialGradient>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">03 · ATELIER</text><text x="1224" y="46" text-anchor="end" fill="#D4AF37" fill-opacity="0.9">E-TİCARET</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="76" fill="#F6F1E7">Atelier</text>
+<text x="60" y="216" class="t" font-size="18" fill="#B8A98E" letter-spacing="4">LÜKS GİYİM · E-TİCARET</text>
+<rect x="60" y="240" width="70" height="2" fill="#D4AF37" fill-opacity="0.7"/>
+<text x="56" y="298" class="t" font-size="16" fill="#8C8677">Koleksiyon · ürün detayı · sepet akışı · favoriler</text>
+<rect x="56" y="330" width="154" height="252" rx="14" fill="#0E1118" stroke="#2A2E3A"/>
+<rect x="56" y="330" width="154" height="150" rx="14" fill="#2B2B2B"/>
+<rect x="56" y="410" width="154" height="70" fill="#3C3A36" fill-opacity="0.6"/>
+<path d="M108 372 l26 -10 26 10 -6 26 16 12 v40 h-72 v-40 l16 -12 Z" fill="none" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1.6"/>
+<text x="72" y="508" class="s" font-size="15" fill="#EAE3D6">Wool Coat</text>
+<text x="72" y="532" class="t" font-size="13" fill="#D4AF37">₺4.890</text>
+<rect x="72" y="548" width="122" height="24" rx="12" fill="#D4AF37" fill-opacity="0.12" stroke="#D4AF37" stroke-opacity="0.4"/>
+<text x="133" y="564" text-anchor="middle" class="cap" font-size="9" fill="#D4AF37">SEPETE EKLE</text>
+<rect x="230" y="330" width="154" height="252" rx="14" fill="#0E1118" stroke="#2A2E3A"/>
+<rect x="230" y="330" width="154" height="150" rx="14" fill="#4A4238"/>
+<rect x="230" y="410" width="154" height="70" fill="#5D5346" fill-opacity="0.6"/>
+<path d="M282 372 l26 -10 26 10 -6 26 16 12 v40 h-72 v-40 l16 -12 Z" fill="none" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1.6"/>
+<text x="246" y="508" class="s" font-size="15" fill="#EAE3D6">Knit Sweater</text>
+<text x="246" y="532" class="t" font-size="13" fill="#D4AF37">₺1.750</text>
+<rect x="246" y="548" width="122" height="24" rx="12" fill="#D4AF37" fill-opacity="0.12" stroke="#D4AF37" stroke-opacity="0.4"/>
+<text x="307" y="564" text-anchor="middle" class="cap" font-size="9" fill="#D4AF37">SEPETE EKLE</text>
+<rect x="404" y="330" width="154" height="252" rx="14" fill="#0E1118" stroke="#2A2E3A"/>
+<rect x="404" y="330" width="154" height="150" rx="14" fill="#33383A"/>
+<rect x="404" y="410" width="154" height="70" fill="#414A4D" fill-opacity="0.6"/>
+<path d="M456 372 l26 -10 26 10 -6 26 16 12 v40 h-72 v-40 l16 -12 Z" fill="none" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1.6"/>
+<text x="420" y="508" class="s" font-size="15" fill="#EAE3D6">Heavy Hoodie</text>
+<text x="420" y="532" class="t" font-size="13" fill="#D4AF37">₺1.290</text>
+<rect x="420" y="548" width="122" height="24" rx="12" fill="#D4AF37" fill-opacity="0.12" stroke="#D4AF37" stroke-opacity="0.4"/>
+<text x="481" y="564" text-anchor="middle" class="cap" font-size="9" fill="#D4AF37">SEPETE EKLE</text>
+<rect x="578" y="330" width="154" height="252" rx="14" fill="#0E1118" stroke="#2A2E3A"/>
+<rect x="578" y="330" width="154" height="150" rx="14" fill="#3A2E28"/>
+<rect x="578" y="410" width="154" height="70" fill="#4B3C33" fill-opacity="0.6"/>
+<path d="M630 372 l26 -10 26 10 -6 26 16 12 v40 h-72 v-40 l16 -12 Z" fill="none" stroke="#D4AF37" stroke-opacity="0.55" stroke-width="1.6"/>
+<text x="594" y="508" class="s" font-size="15" fill="#EAE3D6">Leather Bag</text>
+<text x="594" y="532" class="t" font-size="13" fill="#D4AF37">₺3.200</text>
+<rect x="594" y="548" width="122" height="24" rx="12" fill="#D4AF37" fill-opacity="0.12" stroke="#D4AF37" stroke-opacity="0.4"/>
+<text x="655" y="564" text-anchor="middle" class="cap" font-size="9" fill="#D4AF37">SEPETE EKLE</text>
+<rect x="768" y="132" width="456" height="452" rx="16" fill="#0E1118" fill-opacity="0.94" stroke="#2A2E3A"/>
+<text x="794" y="172" class="t" font-size="14" fill="#CFC6B6" letter-spacing="2">SEPET</text>
+<line x1="794" y1="190" x2="1198" y2="190" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<text x="794" y="224" class="t" font-size="14" fill="#EAE3D6">Wool Coat · M</text>
+<text x="1198" y="224" text-anchor="end" class="t" font-size="14" fill="#B8A98E">₺4.890</text>
+<text x="794" y="268" class="t" font-size="14" fill="#EAE3D6">Knit Sweater · S</text>
+<text x="1198" y="268" text-anchor="end" class="t" font-size="14" fill="#B8A98E">₺1.750</text>
+<text x="794" y="312" class="t" font-size="14" fill="#EAE3D6">Leather Bag</text>
+<text x="1198" y="312" text-anchor="end" class="t" font-size="14" fill="#B8A98E">₺3.200</text>
+<line x1="794" y1="368" x2="1198" y2="368" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<text x="794" y="400" class="t" font-size="13" fill="#8C8677">Ara toplam</text>
+<text x="1198" y="400" text-anchor="end" class="t" font-size="14" fill="#EAE3D6">₺9.840</text>
+<text x="794" y="430" class="t" font-size="13" fill="#8C8677">Kargo</text>
+<text x="1198" y="430" text-anchor="end" class="t" font-size="14" fill="#7FA883">Ücretsiz</text>
+<rect x="794" y="450" width="404" height="52" rx="10" fill="url(#metal)" fill-opacity="0.5" stroke="#D4AF37" stroke-opacity="0.55"/>
+<text x="996.0" y="482" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#D4AF37">ÖDEMEYE GEÇ</text>
+<text x="794" y="536" class="m" font-size="11" fill="#4E5768">React Router · Styled Components · Axios</text>
+<text x="794" y="556" class="m" font-size="11" fill="#4E5768">ShopContext · sepet &amp; favori durumu</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#D4AF37">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

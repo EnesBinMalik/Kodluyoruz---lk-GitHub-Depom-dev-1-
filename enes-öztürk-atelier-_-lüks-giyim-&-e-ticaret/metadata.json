@@ -1,0 +1,6 @@
+{
+  "name": "Enes Öztürk Atelier | Lüks Giyim & E-Ticaret",
+  "description": "Enes Öztürk imzalı modern giyim koleksiyonu, React Router, Styled Components ve Axios ile güçlendirilmiş e-ticaret platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

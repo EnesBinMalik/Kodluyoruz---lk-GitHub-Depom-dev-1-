@@ -1,0 +1,6 @@
+{
+  "name": "Vücut Kitle Endeksi & Diyet Rehberi",
+  "description": "Kişiselleştirilmiş Vücut Kitle Endeksi (BMI) hesaplama, sonuca özel diyet listeleri ve sağlıklı yaşam asistanı. Enes Öztürk tasarımı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
