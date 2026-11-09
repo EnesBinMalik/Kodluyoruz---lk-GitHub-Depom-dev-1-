@@ -1,0 +1,6 @@
+{
+  "name": "Kitap Arama Uygulaması - Enes Öztürk",
+  "description": "Google Books API ile kitap ve yazar ismiyle kitap arama, kapak fotoğrafları, sayfa sayısı ve yayın detayları sunan interaktif kütüphane platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

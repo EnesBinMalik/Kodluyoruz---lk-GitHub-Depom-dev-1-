@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Kitap Arama Uygulaması — Enes Öztürk">
+<title>Kitap Arama Uygulaması · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E7C07B"/><stop offset="60%" stop-color="#8FB8A8"/><stop offset="100%" stop-color="#8FB8A8" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E7C07B" stop-opacity="0.30"/><stop offset="100%" stop-color="#E7C07B" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8FB8A8" stop-opacity="0.26"/><stop offset="100%" stop-color="#8FB8A8" stop-opacity="0"/></radialGradient>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">09 · KİTAP ARAMA</text><text x="1224" y="46" text-anchor="end" fill="#E7C07B" fill-opacity="0.9">GOOGLE BOOKS</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="68" fill="#F7F2E8">Kitap Arama</text>
+<text x="60" y="214" class="t" font-size="17" fill="#A79E8B" letter-spacing="3">GOOGLE BOOKS API · KÜTÜPHANE</text>
+<rect x="60" y="236" width="70" height="2" fill="#E7C07B" fill-opacity="0.75"/>
+<rect x="56" y="266" width="520" height="52" rx="26" fill="#0F0E0C" stroke="#E7C07B" stroke-opacity="0.5"/>
+<circle cx="86" cy="292" r="7" fill="none" stroke="#E7C07B" stroke-opacity="0.8" stroke-width="2"/>
+<line x1="91" y1="297" x2="98" y2="304" stroke="#E7C07B" stroke-opacity="0.8" stroke-width="2" stroke-linecap="round"/>
+<text x="112" y="297" class="t" font-size="15" fill="#8C8577">Kitap veya yazar ara…</text>
+<rect x="486" y="276" width="80" height="32" rx="16" fill="#E7C07B" fill-opacity="0.16" stroke="#E7C07B" stroke-opacity="0.5"/>
+<text x="526" y="297" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#E7C07B">ARA</text>
+<rect x="66" y="354" width="112" height="160" rx="4" fill="#0A0908"/>
+<rect x="56" y="348" width="112" height="160" rx="4" fill="#5B2A2A"/>
+<rect x="56" y="348" width="9" height="160" rx="4" fill="#8C4A3F" fill-opacity="0.9"/>
+<line x1="74" y1="378" x2="152" y2="378" stroke="#E7C07B" stroke-opacity="0.55" stroke-width="1.4"/>
+<text x="112" y="406" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Suç</text>
+<text x="112" y="422" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Ceza</text>
+<circle cx="112" cy="460" r="16" fill="none" stroke="#E7C07B" stroke-opacity="0.4"/>
+<text x="72" y="538" class="s" font-size="12.5" fill="#EDE5D6">Suç ve Ceza</text>
+<text x="72" y="558" class="m" font-size="10.5" fill="#8C8577">Dostoyevski</text>
+<rect x="216" y="354" width="112" height="160" rx="4" fill="#0A0908"/>
+<rect x="206" y="348" width="112" height="160" rx="4" fill="#2B3A4A"/>
+<rect x="206" y="348" width="9" height="160" rx="4" fill="#46617A" fill-opacity="0.9"/>
+<line x1="224" y1="378" x2="302" y2="378" stroke="#E7C07B" stroke-opacity="0.55" stroke-width="1.4"/>
+<text x="262" y="406" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Kürk</text>
+<text x="262" y="422" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Madonna</text>
+<circle cx="262" cy="460" r="16" fill="none" stroke="#E7C07B" stroke-opacity="0.4"/>
+<text x="222" y="538" class="s" font-size="12.5" fill="#EDE5D6">Kürk Mantolu Mad</text>
+<text x="222" y="558" class="m" font-size="10.5" fill="#8C8577">Sabahattin Ali</text>
+<rect x="366" y="354" width="112" height="160" rx="4" fill="#0A0908"/>
+<rect x="356" y="348" width="112" height="160" rx="4" fill="#3A3A2B"/>
+<rect x="356" y="348" width="9" height="160" rx="4" fill="#6B6A4A" fill-opacity="0.9"/>
+<line x1="374" y1="378" x2="452" y2="378" stroke="#E7C07B" stroke-opacity="0.55" stroke-width="1.4"/>
+<text x="412" y="406" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Tutunamayanlar</text>
+<text x="412" y="422" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Tutunamayanlar</text>
+<circle cx="412" cy="460" r="16" fill="none" stroke="#E7C07B" stroke-opacity="0.4"/>
+<text x="372" y="538" class="s" font-size="12.5" fill="#EDE5D6">Tutunamayanlar</text>
+<text x="372" y="558" class="m" font-size="10.5" fill="#8C8577">Oğuz Atay</text>
+<rect x="516" y="354" width="112" height="160" rx="4" fill="#0A0908"/>
+<rect x="506" y="348" width="112" height="160" rx="4" fill="#2A3A2E"/>
+<rect x="506" y="348" width="9" height="160" rx="4" fill="#476B52" fill-opacity="0.9"/>
+<line x1="524" y1="378" x2="602" y2="378" stroke="#E7C07B" stroke-opacity="0.55" stroke-width="1.4"/>
+<text x="562" y="406" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Sefiller</text>
+<text x="562" y="422" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">Sefiller</text>
+<circle cx="562" cy="460" r="16" fill="none" stroke="#E7C07B" stroke-opacity="0.4"/>
+<text x="522" y="538" class="s" font-size="12.5" fill="#EDE5D6">Sefiller</text>
+<text x="522" y="558" class="m" font-size="10.5" fill="#8C8577">Victor Hugo</text>
+<rect x="700" y="132" width="524" height="470" rx="16" fill="#0F0E0C" fill-opacity="0.95" stroke="#2A2723"/>
+<rect x="728" y="162" width="76" height="112" rx="4" fill="#5B2A2A"/>
+<rect x="728" y="162" width="7" height="112" rx="3" fill="#8C4A3F"/>
+<text x="822" y="188" class="s" font-size="19" fill="#F7F2E8">Suç ve Ceza</text>
+<text x="822" y="210" class="m" font-size="11.5" fill="#A79E8B">Fyodor Dostoyevski · 1866</text>
+<text x="822" y="234" class="m" font-size="11" fill="#6E675C">687 sayfa · Roman</text>
+<rect x="822" y="248" width="110" height="26" rx="13" fill="#8FB8A8" fill-opacity="0.14" stroke="#8FB8A8" stroke-opacity="0.45"/>
+<text x="877" y="265" text-anchor="middle" class="m" font-size="10.5" fill="#8FB8A8">FAVORİLERE EKLE</text>
+<line x1="728" y1="296" x2="1196" y2="296" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<rect x="728" y="318" width="468" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.09"/>
+<rect x="728" y="342" width="430" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.09"/>
+<rect x="728" y="366" width="392" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.09"/>
+<rect x="728" y="390" width="354" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.09"/>
+<rect x="728" y="414" width="316" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.09"/>
+<text x="728" y="484" class="t" font-size="12" fill="#E7C07B" letter-spacing="2">BENZER KİTAPLAR</text>
+<rect x="728" y="498" width="144" height="66" rx="10" fill="#141210" stroke="#2A2723"/>
+<rect x="740" y="510" width="22" height="42" rx="2" fill="#5B2A2A"/>
+<text x="772" y="530" class="t" font-size="12" fill="#EDE5D6">Kumarbaz</text>
+<text x="772" y="546" class="m" font-size="10" fill="#6E675C">Dostoyevski</text>
+<rect x="888" y="498" width="144" height="66" rx="10" fill="#141210" stroke="#2A2723"/>
+<rect x="900" y="510" width="22" height="42" rx="2" fill="#5B2A2A"/>
+<text x="932" y="530" class="t" font-size="12" fill="#EDE5D6">İnsancıklar</text>
+<text x="932" y="546" class="m" font-size="10" fill="#6E675C">Dostoyevski</text>
+<rect x="1048" y="498" width="144" height="66" rx="10" fill="#141210" stroke="#2A2723"/>
+<rect x="1060" y="510" width="22" height="42" rx="2" fill="#5B2A2A"/>
+<text x="1092" y="530" class="t" font-size="12" fill="#EDE5D6">Budala</text>
+<text x="1092" y="546" class="m" font-size="10" fill="#6E675C">Dostoyevski</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#E7C07B">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

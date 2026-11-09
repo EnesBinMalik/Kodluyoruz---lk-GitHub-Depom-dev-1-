@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Taş Kağıt Makas — Enes Öztürk">
+<title>Taş Kağıt Makas · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="60%" stop-color="#FBBF24"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.30"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FBBF24" stop-opacity="0.26"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">12 · TAŞ KAĞIT MAKAS</text><text x="1224" y="46" text-anchor="end" fill="#38BDF8" fill-opacity="0.9">OYUN</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="68" fill="#EDF6FF">Taş · Kağıt · Makas</text>
+<text x="60" y="214" class="t" font-size="17" fill="#93A6BC" letter-spacing="3">BİLGİSAYARA KARŞI · HEDEF ±3</text>
+<rect x="60" y="236" width="70" height="2" fill="#38BDF8" fill-opacity="0.75"/>
+<rect x="56" y="272" width="700" height="356" rx="16" fill="#0C1219" fill-opacity="0.95" stroke="#22303F"/>
+<text x="406.0" y="306" text-anchor="middle" class="t" font-size="12" fill="#38BDF8" letter-spacing="3">ARENA</text>
+<text x="176" y="350" text-anchor="middle" class="m" font-size="11" fill="#7A8CA3">SEN</text>
+<circle cx="176" cy="440" r="58" fill="#38BDF8" fill-opacity="0.10" stroke="#38BDF8" stroke-opacity="0.45"/>
+<g stroke="#38BDF8" stroke-width="4" fill="none" stroke-linecap="round"><path d="M152 412 L206 468"/><path d="M206 412 L152 468"/><circle cx="148" cy="408" r="9"/><circle cx="210" cy="408" r="9"/></g>
+<text x="406.0" y="450" text-anchor="middle" class="t" font-size="26" font-weight="700" fill="#31465C">VS</text>
+<text x="636" y="350" text-anchor="middle" class="m" font-size="11" fill="#7A8CA3">BİLGİSAYAR</text>
+<circle cx="636" cy="440" r="58" fill="#FBBF24" fill-opacity="0.10" stroke="#FBBF24" stroke-opacity="0.45"/>
+<g stroke="#FBBF24" stroke-width="4" fill="none" stroke-linejoin="round"><path d="M610 422 h52 l-10 26 h-32 Z"/><path d="M620 414 h32 l-6 8 h-20 Z"/></g>
+<text x="406.0" y="530" text-anchor="middle" class="t" font-size="44" font-weight="700" fill="#EDF6FF">2 — 1</text>
+<text x="406.0" y="554" text-anchor="middle" class="m" font-size="11" fill="#4ADE80">SON TUR: KAZANDIN</text>
+<rect x="206" y="572" width="130" height="42" rx="21" fill="#121A24" stroke="#38BDF8" stroke-opacity="0.4"/>
+<text x="271" y="599" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#B9CCDD">●  TAŞ</text>
+<rect x="356" y="572" width="130" height="42" rx="21" fill="#121A24" stroke="#38BDF8" stroke-opacity="0.4"/>
+<text x="421" y="599" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#B9CCDD">▭  KAĞIT</text>
+<rect x="506" y="572" width="130" height="42" rx="21" fill="#121A24" stroke="#38BDF8" stroke-opacity="0.4"/>
+<text x="571" y="599" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#B9CCDD">✂  MAKAS</text>
+<rect x="786" y="272" width="438" height="356" rx="16" fill="#0C1219" fill-opacity="0.95" stroke="#22303F"/>
+<text x="810" y="306" class="t" font-size="12" fill="#FBBF24" letter-spacing="2">TUR GEÇMİŞİ</text>
+<circle cx="824" cy="338" r="12" fill="#16202B" stroke="#2A3A4C"/>
+<text x="824" y="342" text-anchor="middle" class="m" font-size="10" fill="#7A8CA3">1</text>
+<text x="848" y="342" class="t" font-size="12.5" fill="#C9D8E6">Makas  vs  Kağıt</text>
+<text x="1200" y="342" text-anchor="end" class="m" font-size="11" fill="#4ADE80">Kazandın</text>
+<line x1="810" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<circle cx="824" cy="390" r="12" fill="#16202B" stroke="#2A3A4C"/>
+<text x="824" y="394" text-anchor="middle" class="m" font-size="10" fill="#7A8CA3">2</text>
+<text x="848" y="394" class="t" font-size="12.5" fill="#C9D8E6">Taş  vs  Taş</text>
+<text x="1200" y="394" text-anchor="end" class="m" font-size="11" fill="#FBBF24">Berabere</text>
+<line x1="810" y1="412" x2="1200" y2="412" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<circle cx="824" cy="442" r="12" fill="#16202B" stroke="#2A3A4C"/>
+<text x="824" y="446" text-anchor="middle" class="m" font-size="10" fill="#7A8CA3">3</text>
+<text x="848" y="446" class="t" font-size="12.5" fill="#C9D8E6">Kağıt  vs  Taş</text>
+<text x="1200" y="446" text-anchor="end" class="m" font-size="11" fill="#4ADE80">Kazandın</text>
+<line x1="810" y1="464" x2="1200" y2="464" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<circle cx="824" cy="494" r="12" fill="#16202B" stroke="#2A3A4C"/>
+<text x="824" y="498" text-anchor="middle" class="m" font-size="10" fill="#7A8CA3">4</text>
+<text x="848" y="498" class="t" font-size="12.5" fill="#C9D8E6">Taş  vs  Kağıt</text>
+<text x="1200" y="498" text-anchor="end" class="m" font-size="11" fill="#F87171">Kaybettin</text>
+<line x1="810" y1="516" x2="1200" y2="516" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="810" y="604" class="m" font-size="10.5" fill="#42566B">gameLogic.ts · audio.ts · RulesModal</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#38BDF8">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

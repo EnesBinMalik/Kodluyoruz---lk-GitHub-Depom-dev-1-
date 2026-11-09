@@ -464,6 +464,232 @@ def chat() -> str:
     L.append("</svg>")
     return "\n".join(L) + "\n"
 
+
+# ————————————————————————— KİTAP ARAMA —————————————————————————
+def kitap() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#E7C07B", "#8FB8A8"
+    L = base(W, H, "Kitap Arama Uygulaması", C1, C2, "GOOGLE BOOKS", "09 · KİTAP ARAMA", with_grid=False)
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="68" fill="#F7F2E8">Kitap Arama</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#A79E8B" letter-spacing="3">GOOGLE BOOKS API · KÜTÜPHANE</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    # arama çubuğu
+    a(f'<rect x="56" y="266" width="520" height="52" rx="26" fill="#0F0E0C" stroke="{C1}" stroke-opacity="0.5"/>')
+    a(f'<circle cx="86" cy="292" r="7" fill="none" stroke="{C1}" stroke-opacity="0.8" stroke-width="2"/>')
+    a(f'<line x1="91" y1="297" x2="98" y2="304" stroke="{C1}" stroke-opacity="0.8" stroke-width="2" stroke-linecap="round"/>')
+    a(f'<text x="112" y="297" class="t" font-size="15" fill="#8C8577">Kitap veya yazar ara…</text>')
+    a(f'<rect x="486" y="276" width="80" height="32" rx="16" fill="{C1}" fill-opacity="0.16" stroke="{C1}" stroke-opacity="0.5"/>')
+    a(f'<text x="526" y="297" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="{C1}">ARA</text>')
+
+    # kitap kartları — kapak çizimleri
+    books = [("Suç ve Ceza", "Dostoyevski", "#5B2A2A", "#8C4A3F"),
+             ("Kürk Mantolu Madonna", "Sabahattin Ali", "#2B3A4A", "#46617A"),
+             ("Tutunamayanlar", "Oğuz Atay", "#3A3A2B", "#6B6A4A"),
+             ("Sefiller", "Victor Hugo", "#2A3A2E", "#476B52")]
+    for i, (name, author, c1b, c2b) in enumerate(books):
+        x = 56 + i * 150
+        y = 348
+        # kitap sırtı + kapağı
+        a(f'<rect x="{x+10}" y="{y+6}" width="112" height="160" rx="4" fill="#0A0908"/>')
+        a(f'<rect x="{x}" y="{y}" width="112" height="160" rx="4" fill="{c1b}"/>')
+        a(f'<rect x="{x}" y="{y}" width="9" height="160" rx="4" fill="{c2b}" fill-opacity="0.9"/>')
+        a(f'<line x1="{x+18}" y1="{y+30}" x2="{x+96}" y2="{y+30}" stroke="{C1}" stroke-opacity="0.55" stroke-width="1.4"/>')
+        a(f'<text x="{x+56}" y="{y+58}" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">{name.split()[0]}</text>')
+        a(f'<text x="{x+56}" y="{y+74}" text-anchor="middle" class="s" font-size="11" fill="#F0E7D6">{name.split()[-1]}</text>')
+        a(f'<circle cx="{x+56}" cy="{y+112}" r="16" fill="none" stroke="{C1}" stroke-opacity="0.4"/>')
+        a(f'<text x="{x+16}" y="{y+190}" class="s" font-size="12.5" fill="#EDE5D6">{name[:16]}</text>')
+        a(f'<text x="{x+16}" y="{y+210}" class="m" font-size="10.5" fill="#8C8577">{author}</text>')
+
+    # detay paneli
+    px, py, pw, ph = 700, 132, 524, 470
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#0F0E0C" fill-opacity="0.95" stroke="#2A2723"/>')
+    a(f'<rect x="{px+28}" y="{py+30}" width="76" height="112" rx="4" fill="#5B2A2A"/>')
+    a(f'<rect x="{px+28}" y="{py+30}" width="7" height="112" rx="3" fill="#8C4A3F"/>')
+    a(f'<text x="{px+122}" y="{py+56}" class="s" font-size="19" fill="#F7F2E8">Suç ve Ceza</text>')
+    a(f'<text x="{px+122}" y="{py+78}" class="m" font-size="11.5" fill="#A79E8B">Fyodor Dostoyevski · 1866</text>')
+    a(f'<text x="{px+122}" y="{py+102}" class="m" font-size="11" fill="#6E675C">687 sayfa · Roman</text>')
+    a(f'<rect x="{px+122}" y="{py+116}" width="110" height="26" rx="13" fill="{C2}" fill-opacity="0.14" stroke="{C2}" stroke-opacity="0.45"/>')
+    a(f'<text x="{px+177}" y="{py+133}" text-anchor="middle" class="m" font-size="10.5" fill="{C2}">FAVORİLERE EKLE</text>')
+    a(f'<line x1="{px+28}" y1="{py+164}" x2="{px+pw-28}" y2="{py+164}" stroke="#FFFFFF" stroke-opacity="0.07"/>')
+    for i in range(5):
+        a(f'<rect x="{px+28}" y="{py+186+i*24}" width="{pw-56-i*38}" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.09"/>')
+    a(f'<text x="{px+28}" y="{py+352}" class="t" font-size="12" fill="{C1}" letter-spacing="2">BENZER KİTAPLAR</text>')
+    for i, n in enumerate(["Kumarbaz", "İnsancıklar", "Budala"]):
+        x = px + 28 + i * 160
+        a(f'<rect x="{x}" y="{py+366}" width="144" height="66" rx="10" fill="#141210" stroke="#2A2723"/>')
+        a(f'<rect x="{x+12}" y="{py+378}" width="22" height="42" rx="2" fill="#5B2A2A"/>')
+        a(f'<text x="{x+44}" y="{py+398}" class="t" font-size="12" fill="#EDE5D6">{n}</text>')
+        a(f'<text x="{x+44}" y="{py+414}" class="m" font-size="10" fill="#6E675C">Dostoyevski</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— FORM YAPIMCISI —————————————————————————
+def form() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#A78BFA", "#22D3EE"
+    L = base(W, H, "Form Yapımcısı", C1, C2, "SÜRÜKLE-BIRAK", "10 · FORM YAPIMCISI")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="68" fill="#F2F0FA">Form Yapımcısı</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#9C97B8" letter-spacing="3">SÜRÜKLE · BIRAK · CANLI ÖNİZLEME</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+
+    # sol araç kutusu
+    tx, ty, tw, th = 56, 282, 210, 320
+    a(f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="14" fill="#0D0F1A" fill-opacity="0.95" stroke="#242A40"/>')
+    a(f'<text x="{tx+20}" y="{ty+30}" class="t" font-size="11.5" fill="{C1}" letter-spacing="2">ARAÇ KUTUSU</text>')
+    fields = [("Metin", "Aa"), ("E-posta", "@"), ("Sayı", "12"), ("Tarih", "▤"),
+              ("Seçim", "▾"), ("Onay", "☑"), ("Paragraf", "¶"), ("Dosya", "⤒")]
+    for i, (n, g) in enumerate(fields):
+        col = i % 2
+        row = i // 2
+        x = tx + 18 + col * 92
+        y = ty + 50 + row * 56
+        a(f'<rect x="{x}" y="{y}" width="84" height="44" rx="10" fill="#131726" stroke="#2A3350"/>')
+        a(f'<text x="{x+42}" y="{y+22}" text-anchor="middle" class="m" font-size="13" fill="{C1}">{g}</text>')
+        a(f'<text x="{x+42}" y="{y+36}" text-anchor="middle" class="t" font-size="9.5" fill="#7D84A0">{n}</text>')
+
+    # orta tuval
+    cx, cy, cw, ch = 290, 282, 486, 320
+    a(f'<rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" rx="14" fill="#0A0C14" stroke="#242A40" stroke-dasharray="6 6"/>')
+    a(f'<text x="{cx+20}" y="{cy+30}" class="t" font-size="11.5" fill="#7D84A0" letter-spacing="2">TUVAL</text>')
+    blocks = [("Ad Soyad", "Metin alanı"), ("E-posta", "Doğrulamalı e-posta"), ("Mesaj", "Paragraf · 4 satır")]
+    for i, (n, k) in enumerate(blocks):
+        y = cy + 48 + i * 78
+        a(f'<rect x="{cx+20}" y="{y}" width="{cw-40}" height="64" rx="10" fill="#111524" stroke="#2A3350"/>')
+        a(f'<rect x="{cx+20}" y="{y}" width="4" height="64" rx="2" fill="{C1}" fill-opacity="0.8"/>')
+        a(f'<text x="{cx+38}" y="{y+24}" class="t" font-size="12.5" font-weight="600" fill="#E6E4F2">{n}</text>')
+        a(f'<text x="{cx+38}" y="{y+42}" class="m" font-size="10" fill="#6C7490">{k}</text>')
+        a(f'<rect x="{cx+cw-96}" y="{y+16}" width="56" height="22" rx="11" fill="{C2}" fill-opacity="0.12" stroke="{C2}" stroke-opacity="0.4"/>')
+        a(f'<text x="{cx+cw-68}" y="{y+31}" text-anchor="middle" class="m" font-size="9" fill="{C2}">GEREKLİ</text>')
+
+    # sağ: canlı önizleme
+    px, py, pw, ph = 802, 282, 422, 320
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="14" fill="#0D0F1A" fill-opacity="0.95" stroke="#242A40"/>')
+    a(f'<text x="{px+22}" y="{py+30}" class="t" font-size="11.5" fill="{C2}" letter-spacing="2">CANLI ÖNİZLEME</text>')
+    a(f'<text x="{px+22}" y="{py+62}" class="t" font-size="16" font-weight="600" fill="#E6E4F2">İletişim Formu</text>')
+    labels = [("Ad Soyad", "Enes Öztürk"), ("E-posta", "enes@ornek.com"), ("Mesaj", "Merhaba…")]
+    for i, (l, v) in enumerate(labels):
+        y = py + 92 + i * 62
+        a(f'<text x="{px+22}" y="{y}" class="m" font-size="10.5" fill="#7D84A0">{l}</text>')
+        a(f'<rect x="{px+22}" y="{y+10}" width="{pw-44}" height="34" rx="8" fill="#080A12" stroke="#2A3350"/>')
+        a(f'<text x="{px+36}" y="{y+32}" class="t" font-size="12" fill="#9BA2BC">{v}</text>')
+    a(f'<rect x="{px+22}" y="{py+ph-52}" width="130" height="34" rx="17" fill="{C1}" fill-opacity="0.18" stroke="{C1}" stroke-opacity="0.6"/>')
+    a(f'<text x="{px+87}" y="{py+ph-30}" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="{C1}">GÖNDER</text>')
+    a(f'<text x="{px+170}" y="{py+ph-30}" class="m" font-size="10.5" fill="#5D6480">ExportModal · PreviewModal</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— HAFIZA OYUNU —————————————————————————
+def hafiza() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#F472B6", "#60A5FA"
+    L = base(W, H, "Hafıza Oyunu — Frontend Projeleri", C1, C2, "OYUN", "11 · HAFIZA OYUNU")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="66" fill="#FBF0F7">Hafıza Oyunu</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#B39BB0" letter-spacing="3">4×3 MATRİS · HAMLE · EN İYİ SKOR</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+
+    # 4x3 kart ızgarası
+    symbols = ["⚛", "◈", "▲", "●", "⚛", "✚", "◈", "■", "●", "▲", "■", "✚"]
+    opened = {4, 8}
+    for i, sym in enumerate(symbols):
+        r, c = divmod(i, 4)
+        x = 56 + c * 122
+        y = 276 + r * 122
+        is_open = i in opened
+        bg = "#241A2A" if not is_open else "#3A2440"
+        a(f'<rect x="{x}" y="{y}" width="108" height="108" rx="14" fill="{bg}" stroke="{C1 if is_open else "#3A2E44"}" stroke-opacity="{0.8 if is_open else 0.6}" stroke-width="{2 if is_open else 1.4}"/>')
+        if is_open:
+            a(f'<text x="{x+54}" y="{y+68}" text-anchor="middle" class="t" font-size="38" fill="{C2}">{sym}</text>')
+        else:
+            a(f'<text x="{x+54}" y="{y+66}" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>')
+
+    # skor paneli
+    px, py, pw, ph = 566, 276, 658, 362
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#140F18" fill-opacity="0.95" stroke="#3A2E44"/>')
+    a(f'<text x="{px+26}" y="{py+36}" class="t" font-size="12" fill="{C1}" letter-spacing="2">SKOR TAHTASI</text>')
+    stats = [("HAMLE", "14", C1), ("EŞLEŞME", "4/6", C2), ("SÜRE", "01:12", "#FBBF24"), ("REKOR", "9", "#4ADE80")]
+    for i, (k, v, col) in enumerate(stats):
+        x = px + 26 + i * 156
+        a(f'<rect x="{x}" y="{py+54}" width="140" height="76" rx="12" fill="#1B1420" stroke="#3A2E44"/>')
+        a(f'<text x="{x+16}" y="{py+76}" class="m" font-size="9.5" fill="#7C6A82">{k}</text>')
+        a(f'<text x="{x+16}" y="{py+112}" class="t" font-size="24" font-weight="700" fill="{col}">{v}</text>')
+    # eşleşme ilerlemesi
+    a(f'<text x="{px+26}" y="{py+168}" class="m" font-size="10.5" fill="#7C6A82">EŞLEŞME İLERLEMESİ</text>')
+    for i in range(6):
+        x = px + 26 + i * 100
+        filled = i < 4
+        a(f'<rect x="{x}" y="{py+180}" width="88" height="12" rx="6" fill="{C2 if filled else "#2A2130"}" fill-opacity="{0.85 if filled else 1}"/>')
+    a(f'<text x="{px+26}" y="{py+232}" class="m" font-size="10.5" fill="#7C6A82">PROJE GEREKSİNİMLERİ</text>')
+    for i, t in enumerate(["4×3 matris kart dizilimi", "Hamle sayacı ve en iyi skor", "Zafer ekranı ve ses efekti"]):
+        a(f'<text x="{px+26}" y="{py+256+i*24}" class="m" font-size="11.5" fill="#9B8AA2">✓ {t}</text>')
+    a(f'<text x="{px+26}" y="{py+ph-24}" class="m" font-size="10.5" fill="#5A4C60">audio.ts · confetti.ts · VictoryModal</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— TAŞ KAĞIT MAKAS —————————————————————————
+def tkm() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#38BDF8", "#FBBF24"
+    L = base(W, H, "Taş Kağıt Makas", C1, C2, "OYUN", "12 · TAŞ KAĞIT MAKAS")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="68" fill="#EDF6FF">Taş · Kağıt · Makas</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#93A6BC" letter-spacing="3">BİLGİSAYARA KARŞI · HEDEF ±3</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+
+    # arena: iki taraf
+    ax, ay, aw, ah = 56, 272, 700, 356
+    a(f'<rect x="{ax}" y="{ay}" width="{aw}" height="{ah}" rx="16" fill="#0C1219" fill-opacity="0.95" stroke="#22303F"/>')
+    a(f'<text x="{ax+aw/2}" y="{ay+34}" text-anchor="middle" class="t" font-size="12" fill="{C1}" letter-spacing="3">ARENA</text>')
+    # sen
+    a(f'<text x="{ax+120}" y="{ay+78}" text-anchor="middle" class="m" font-size="11" fill="#7A8CA3">SEN</text>')
+    a(f'<circle cx="{ax+120}" cy="{ay+168}" r="58" fill="{C1}" fill-opacity="0.10" stroke="{C1}" stroke-opacity="0.45"/>')
+    # makas çizimi
+    a(f'<g stroke="{C1}" stroke-width="4" fill="none" stroke-linecap="round">'
+      f'<path d="M{ax+96} {ay+140} L{ax+150} {ay+196}"/><path d="M{ax+150} {ay+140} L{ax+96} {ay+196}"/>'
+      f'<circle cx="{ax+92}" cy="{ay+136}" r="9"/><circle cx="{ax+154}" cy="{ay+136}" r="9"/></g>')
+    # vs
+    a(f'<text x="{ax+aw/2}" y="{ay+178}" text-anchor="middle" class="t" font-size="26" font-weight="700" fill="#31465C">VS</text>')
+    # bilgisayar
+    a(f'<text x="{ax+aw-120}" y="{ay+78}" text-anchor="middle" class="m" font-size="11" fill="#7A8CA3">BİLGİSAYAR</text>')
+    a(f'<circle cx="{ax+aw-120}" cy="{ay+168}" r="58" fill="{C2}" fill-opacity="0.10" stroke="{C2}" stroke-opacity="0.45"/>')
+    a(f'<g stroke="{C2}" stroke-width="4" fill="none" stroke-linejoin="round">'
+      f'<path d="M{ax+aw-146} {ay+150} h52 l-10 26 h-32 Z"/><path d="M{ax+aw-136} {ay+142} h32 l-6 8 h-20 Z"/></g>')
+
+    # skor
+    a(f'<text x="{ax+aw/2}" y="{ay+258}" text-anchor="middle" class="t" font-size="44" font-weight="700" fill="#EDF6FF">2 — 1</text>')
+    a(f'<text x="{ax+aw/2}" y="{ay+282}" text-anchor="middle" class="m" font-size="11" fill="#4ADE80">SON TUR: KAZANDIN</text>')
+    # seçim düğmeleri
+    for i, (n, g) in enumerate([("TAŞ", "●"), ("KAĞIT", "▭"), ("MAKAS", "✂")]):
+        x = ax + 150 + i * 150
+        a(f'<rect x="{x}" y="{ay+300}" width="130" height="42" rx="21" fill="#121A24" stroke="{C1}" stroke-opacity="0.4"/>')
+        a(f'<text x="{x+65}" y="{ay+327}" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#B9CCDD">{g}  {n}</text>')
+
+    # tur geçmişi
+    px, py, pw, ph = 786, 272, 438, 356
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#0C1219" fill-opacity="0.95" stroke="#22303F"/>')
+    a(f'<text x="{px+24}" y="{py+34}" class="t" font-size="12" fill="{C2}" letter-spacing="2">TUR GEÇMİŞİ</text>')
+    hist = [("1", "Makas", "Kağıt", "Kazandın", "#4ADE80"), ("2", "Taş", "Taş", "Berabere", "#FBBF24"),
+            ("3", "Kağıt", "Taş", "Kazandın", "#4ADE80"), ("4", "Taş", "Kağıt", "Kaybettin", "#F87171")]
+    for i, (no, me, cpu, res, col) in enumerate(hist):
+        y = py + 66 + i * 52
+        a(f'<circle cx="{px+38}" cy="{y}" r="12" fill="#16202B" stroke="#2A3A4C"/>')
+        a(f'<text x="{px+38}" y="{y+4}" text-anchor="middle" class="m" font-size="10" fill="#7A8CA3">{no}</text>')
+        a(f'<text x="{px+62}" y="{y+4}" class="t" font-size="12.5" fill="#C9D8E6">{me}  vs  {cpu}</text>')
+        a(f'<text x="{px+pw-24}" y="{y+4}" text-anchor="end" class="m" font-size="11" fill="{col}">{res}</text>')
+        a(f'<line x1="{px+24}" y1="{y+22}" x2="{px+pw-24}" y2="{y+22}" stroke="#FFFFFF" stroke-opacity="0.05"/>')
+    a(f'<text x="{px+24}" y="{py+ph-24}" class="m" font-size="10.5" fill="#42566B">gameLogic.ts · audio.ts · RulesModal</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
 PROJECTS = [
     ("enes-öztürk-atelier-_-lüks-giyim-&-e-ticaret", "Atelier — Lüks Giyim", "03",
      "#D4AF37", "#8B7355", atelier),
@@ -477,6 +703,14 @@ PROJECTS = [
      "#E2E8F0", "#7DD3FC", portfolyo),
     ("gerçek-zamanlı-chat-uygulaması", "Gerçek Zamanlı Chat", "08",
      "#34D399", "#818CF8", chat),
+    ("kitap-arama-uygulaması---enes-öztürk", "Kitap Arama", "09",
+     "#E7C07B", "#8FB8A8", kitap),
+    ("form-yapımcısı", "Form Yapımcısı", "10",
+     "#A78BFA", "#22D3EE", form),
+    ("hafıza-oyunu---frontend-projeleri-_-enes-öztürk", "Hafıza Oyunu", "11",
+     "#F472B6", "#60A5FA", hafiza),
+    ("taş-kağıt-makas", "Taş Kağıt Makas", "12",
+     "#38BDF8", "#FBBF24", tkm),
 ]
 
 

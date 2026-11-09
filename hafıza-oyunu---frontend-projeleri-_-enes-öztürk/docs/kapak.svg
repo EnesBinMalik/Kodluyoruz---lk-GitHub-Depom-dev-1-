@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Hafıza Oyunu — Frontend Projeleri — Enes Öztürk">
+<title>Hafıza Oyunu — Frontend Projeleri · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F472B6"/><stop offset="60%" stop-color="#60A5FA"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F472B6" stop-opacity="0.30"/><stop offset="100%" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#60A5FA" stop-opacity="0.26"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">11 · HAFIZA OYUNU</text><text x="1224" y="46" text-anchor="end" fill="#F472B6" fill-opacity="0.9">OYUN</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="66" fill="#FBF0F7">Hafıza Oyunu</text>
+<text x="60" y="214" class="t" font-size="17" fill="#B39BB0" letter-spacing="3">4×3 MATRİS · HAMLE · EN İYİ SKOR</text>
+<rect x="60" y="236" width="70" height="2" fill="#F472B6" fill-opacity="0.75"/>
+<rect x="56" y="276" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="110" y="342" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="178" y="276" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="232" y="342" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="300" y="276" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="354" y="342" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="422" y="276" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="476" y="342" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="56" y="398" width="108" height="108" rx="14" fill="#3A2440" stroke="#F472B6" stroke-opacity="0.8" stroke-width="2"/>
+<text x="110" y="466" text-anchor="middle" class="t" font-size="38" fill="#60A5FA">⚛</text>
+<rect x="178" y="398" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="232" y="464" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="300" y="398" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="354" y="464" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="422" y="398" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="476" y="464" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="56" y="520" width="108" height="108" rx="14" fill="#3A2440" stroke="#F472B6" stroke-opacity="0.8" stroke-width="2"/>
+<text x="110" y="588" text-anchor="middle" class="t" font-size="38" fill="#60A5FA">●</text>
+<rect x="178" y="520" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="232" y="586" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="300" y="520" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="354" y="586" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="422" y="520" width="108" height="108" rx="14" fill="#241A2A" stroke="#3A2E44" stroke-opacity="0.6" stroke-width="1.4"/>
+<text x="476" y="586" text-anchor="middle" class="t" font-size="28" fill="#6A5570">?</text>
+<rect x="566" y="276" width="658" height="362" rx="16" fill="#140F18" fill-opacity="0.95" stroke="#3A2E44"/>
+<text x="592" y="312" class="t" font-size="12" fill="#F472B6" letter-spacing="2">SKOR TAHTASI</text>
+<rect x="592" y="330" width="140" height="76" rx="12" fill="#1B1420" stroke="#3A2E44"/>
+<text x="608" y="352" class="m" font-size="9.5" fill="#7C6A82">HAMLE</text>
+<text x="608" y="388" class="t" font-size="24" font-weight="700" fill="#F472B6">14</text>
+<rect x="748" y="330" width="140" height="76" rx="12" fill="#1B1420" stroke="#3A2E44"/>
+<text x="764" y="352" class="m" font-size="9.5" fill="#7C6A82">EŞLEŞME</text>
+<text x="764" y="388" class="t" font-size="24" font-weight="700" fill="#60A5FA">4/6</text>
+<rect x="904" y="330" width="140" height="76" rx="12" fill="#1B1420" stroke="#3A2E44"/>
+<text x="920" y="352" class="m" font-size="9.5" fill="#7C6A82">SÜRE</text>
+<text x="920" y="388" class="t" font-size="24" font-weight="700" fill="#FBBF24">01:12</text>
+<rect x="1060" y="330" width="140" height="76" rx="12" fill="#1B1420" stroke="#3A2E44"/>
+<text x="1076" y="352" class="m" font-size="9.5" fill="#7C6A82">REKOR</text>
+<text x="1076" y="388" class="t" font-size="24" font-weight="700" fill="#4ADE80">9</text>
+<text x="592" y="444" class="m" font-size="10.5" fill="#7C6A82">EŞLEŞME İLERLEMESİ</text>
+<rect x="592" y="456" width="88" height="12" rx="6" fill="#60A5FA" fill-opacity="0.85"/>
+<rect x="692" y="456" width="88" height="12" rx="6" fill="#60A5FA" fill-opacity="0.85"/>
+<rect x="792" y="456" width="88" height="12" rx="6" fill="#60A5FA" fill-opacity="0.85"/>
+<rect x="892" y="456" width="88" height="12" rx="6" fill="#60A5FA" fill-opacity="0.85"/>
+<rect x="992" y="456" width="88" height="12" rx="6" fill="#2A2130" fill-opacity="1"/>
+<rect x="1092" y="456" width="88" height="12" rx="6" fill="#2A2130" fill-opacity="1"/>
+<text x="592" y="508" class="m" font-size="10.5" fill="#7C6A82">PROJE GEREKSİNİMLERİ</text>
+<text x="592" y="532" class="m" font-size="11.5" fill="#9B8AA2">✓ 4×3 matris kart dizilimi</text>
+<text x="592" y="556" class="m" font-size="11.5" fill="#9B8AA2">✓ Hamle sayacı ve en iyi skor</text>
+<text x="592" y="580" class="m" font-size="11.5" fill="#9B8AA2">✓ Zafer ekranı ve ses efekti</text>
+<text x="592" y="614" class="m" font-size="10.5" fill="#5A4C60">audio.ts · confetti.ts · VictoryModal</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#F472B6">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

@@ -20,6 +20,10 @@ Kodluyoruz Frontend 101 Eğitimi Ödev 1: GitHub Repo İşlemleri, kodluyoruzilk
 | 06 | [Kripto Para — Canlı Fiyat Takip](kripto-para---canlı-fiyat-takip-platformu) | Finans paneli | `docs/kapak.svg` |
 | 07 | [Portfolyo & Blog](enes-öztürk---portfolyo-&-blog) | Kişisel site | `docs/kapak.svg` |
 | 08 | [Gerçek Zamanlı Chat](gerçek-zamanlı-chat-uygulaması) | Socket.io sohbet | `docs/kapak.svg` |
+| 09 | [Kitap Arama](kitap-arama-uygulaması---enes-öztürk) | Google Books kütüphanesi | `docs/kapak.svg` |
+| 10 | [Form Yapımcısı](form-yapımcısı) | Sürükle-bırak form aracı | `docs/kapak.svg` |
+| 11 | [Hafıza Oyunu](hafıza-oyunu---frontend-projeleri-_-enes-öztürk) | 4×3 kart eşleştirme | `docs/kapak.svg` |
+| 12 | [Taş Kağıt Makas](taş-kağıt-makas) | Bilgisayara karşı oyun | `docs/kapak.svg` |
 
 Her proje kendi klasöründe bağımsız çalışır: `cd <klasör> && npm install && npm run dev`.
 

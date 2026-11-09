@@ -1,0 +1,6 @@
+{
+  "name": "Form Yapımcısı",
+  "description": "Sürükle bırak yöntemiyle form oluşturma, düzenleme ve canlı önizleme aracı. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

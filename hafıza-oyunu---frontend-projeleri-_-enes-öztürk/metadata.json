@@ -1,0 +1,6 @@
+{
+  "name": "Hafıza Oyunu - Frontend Projeleri | Enes Öztürk",
+  "description": "Frontend Web Development Seviye 2 - 4x3 matrisli, moves ve en iyi skor takipli hafıza oyunu. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

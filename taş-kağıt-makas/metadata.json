@@ -1,0 +1,6 @@
+{
+  "name": "Taş Kağıt Makas",
+  "description": "Bilgisayara karşı oynanan dinamik Taş Kağıt Makas oyunu. Hedef: +3 veya -3 puan. Tur geçmişi ve detaylı skor istatistikleri. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
