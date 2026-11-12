@@ -17,6 +17,52 @@
 
 ---
 
+## Vitrin
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="20%">
+<a href="kripto-para---canl%C4%B1-fiyat-takip-platformu"><img src="kripto-para---canl%C4%B1-fiyat-takip-platformu/docs/kapak.svg" width="230" alt="Kripto Para — Canlı Fiyat Takip" /></a><br/>
+<b>Kripto Para — Canlı Fiyat Takip</b><br/>
+<sub>CoinGecko'dan anlık fiyat, sparkline, dönüştürücü ve portföy paneli.</sub><br/>
+<sub><code>06</code> · <a href="kripto-para---canl%C4%B1-fiyat-takip-platformu">kaynak</a> · <a href="kripto-para---canl%C4%B1-fiyat-takip-platformu/docs/kapak.svg">kapak</a></sub>
+</td>
+<td align="center" width="20%">
+<a href="ger%C3%A7ek-zamanl%C4%B1-chat-uygulamas%C4%B1"><img src="ger%C3%A7ek-zamanl%C4%B1-chat-uygulamas%C4%B1/docs/kapak.svg" width="230" alt="Gerçek Zamanlı Chat" /></a><br/>
+<b>Gerçek Zamanlı Chat</b><br/>
+<sub>Socket.io ile odalı, gecikmesiz mesajlaşma; sunucu ve arayüz tek komutta.</sub><br/>
+<sub><code>08</code> · <a href="ger%C3%A7ek-zamanl%C4%B1-chat-uygulamas%C4%B1">kaynak</a> · <a href="ger%C3%A7ek-zamanl%C4%B1-chat-uygulamas%C4%B1/docs/kapak.svg">kapak</a></sub>
+</td>
+<td align="center" width="20%">
+<a href="enes-%C3%B6zt%C3%BCrk-atelier-_-l%C3%BCks-giyim-%26-e-ticaret"><img src="enes-%C3%B6zt%C3%BCrk-atelier-_-l%C3%BCks-giyim-%26-e-ticaret/docs/kapak.svg" width="230" alt="Atelier — Lüks Giyim & E-Ticaret" /></a><br/>
+<b>Atelier — Lüks Giyim & E-Ticaret</b><br/>
+<sub>Vitrin tipografisi, ürün filtreleme ve sepet akışıyla e-ticaret deneyimi.</sub><br/>
+<sub><code>03</code> · <a href="enes-%C3%B6zt%C3%BCrk-atelier-_-l%C3%BCks-giyim-%26-e-ticaret">kaynak</a> · <a href="enes-%C3%B6zt%C3%BCrk-atelier-_-l%C3%BCks-giyim-%26-e-ticaret/docs/kapak.svg">kapak</a></sub>
+</td>
+<td align="center" width="20%">
+<a href="kitap-arama-uygulamas%C4%B1---enes-%C3%B6zt%C3%BCrk"><img src="kitap-arama-uygulamas%C4%B1---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg" width="230" alt="Kitap Arama" /></a><br/>
+<b>Kitap Arama</b><br/>
+<sub>Google Books API ile kitap/yazar arama, künye ve favori rafı.</sub><br/>
+<sub><code>09</code> · <a href="kitap-arama-uygulamas%C4%B1---enes-%C3%B6zt%C3%BCrk">kaynak</a> · <a href="kitap-arama-uygulamas%C4%B1---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg">kapak</a></sub>
+</td>
+<td align="center" width="20%">
+<a href="router-s%C4%B1n%C4%B1f%C4%B1---enes-%C3%B6zt%C3%BCrk"><img src="router-s%C4%B1n%C4%B1f%C4%B1---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg" width="230" alt="Router Sınıfı" /></a><br/>
+<b>Router Sınıfı</b><br/>
+<sub>Regex parametreli, GET/POST ayrımlı router; canlı dispatcher ve birim testleri.</sub><br/>
+<sub><code>16</code> · <a href="router-s%C4%B1n%C4%B1f%C4%B1---enes-%C3%B6zt%C3%BCrk">kaynak</a> · <a href="router-s%C4%B1n%C4%B1f%C4%B1---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg">kapak</a></sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+> Yukarıdakiler, depodaki en olgun beş proje — her biri kendi kapağı, imza rozeti ve README'siyle.
+> Tam liste aşağıda.
+
+---
+
 ## Projeler
 
 <div align="center">
