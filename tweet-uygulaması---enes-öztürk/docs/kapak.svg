@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Tweet Uygulaması — Enes Öztürk">
+<title>Tweet Uygulaması · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset="60%" stop-color="#F472B6"/><stop offset="100%" stop-color="#F472B6" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#60A5FA" stop-opacity="0.30"/><stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F472B6" stop-opacity="0.26"/><stop offset="100%" stop-color="#F472B6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">14 · TWEET</text><text x="1224" y="46" text-anchor="end" fill="#60A5FA" fill-opacity="0.9">MİKROBLOG</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="68" fill="#EDF4FF">Tweet Uygulaması</text>
+<text x="60" y="214" class="t" font-size="17" fill="#8FA6C4" letter-spacing="3">180 KARAKTER · GİRİŞ · AKIŞ</text>
+<rect x="60" y="236" width="70" height="2" fill="#60A5FA" fill-opacity="0.75"/>
+<rect x="56" y="272" width="200" height="360" rx="14" fill="#0D1420" fill-opacity="0.95" stroke="#22304A"/>
+<rect x="68" y="296" width="176" height="40" rx="10" fill="#60A5FA" fill-opacity="0.14"/>
+<circle cx="88" cy="316" r="5" fill="#60A5FA"/>
+<text x="104" y="320" class="t" font-size="13" fill="#EAF2FF">Akış</text>
+<rect x="68" y="348" width="176" height="40" rx="10" fill="#60A5FA" fill-opacity="0"/>
+<circle cx="88" cy="368" r="5" fill="#3E4E68"/>
+<text x="104" y="372" class="t" font-size="13" fill="#7E90AB">Keşfet</text>
+<rect x="68" y="400" width="176" height="40" rx="10" fill="#60A5FA" fill-opacity="0"/>
+<circle cx="88" cy="420" r="5" fill="#3E4E68"/>
+<text x="104" y="424" class="t" font-size="13" fill="#7E90AB">Bildirimler</text>
+<rect x="68" y="452" width="176" height="40" rx="10" fill="#60A5FA" fill-opacity="0"/>
+<circle cx="88" cy="472" r="5" fill="#3E4E68"/>
+<text x="104" y="476" class="t" font-size="13" fill="#7E90AB">Profil</text>
+<rect x="276" y="272" width="588" height="112" rx="14" fill="#0D1420" fill-opacity="0.95" stroke="#22304A"/>
+<circle cx="312" cy="312" r="18" fill="#60A5FA" fill-opacity="0.2" stroke="#60A5FA" stroke-opacity="0.6"/>
+<text x="312" y="317" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#60A5FA">EÖ</text>
+<text x="344" y="318" class="t" font-size="14" fill="#5C6E88">Neler oluyor?</text>
+<line x1="296" y1="336" x2="844" y2="336" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<text x="300" y="366" class="m" font-size="11" fill="#4E5F78">0 / 180</text>
+<rect x="756" y="348" width="96" height="30" rx="15" fill="#60A5FA" fill-opacity="0.2" stroke="#60A5FA" stroke-opacity="0.55"/>
+<text x="804" y="367" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#60A5FA">Paylaş</text>
+<rect x="276" y="400" width="588" height="70" rx="12" fill="#0A1119" stroke="#1B2740"/>
+<circle cx="308" cy="426" r="15" fill="#60A5FA" fill-opacity="0.18" stroke="#60A5FA" stroke-opacity="0.5"/>
+<text x="342" y="422" class="t" font-size="12.5" font-weight="600" fill="#EAF2FF">Enes Öztürk</text>
+<text x="429" y="422" class="m" font-size="10.5" fill="#5C6E88">@enesbinmalik · 2d</text>
+<text x="342" y="444" class="t" font-size="12.5" fill="#AFC0D6">Router sınıfını bitirdim — regex parametreler artık sorunsuz.</text>
+<text x="342" y="460" class="m" font-size="10" fill="#4E5F78">↺ 12   ♡ 48</text>
+<rect x="276" y="478" width="588" height="70" rx="12" fill="#0A1119" stroke="#1B2740"/>
+<circle cx="308" cy="504" r="15" fill="#F472B6" fill-opacity="0.18" stroke="#F472B6" stroke-opacity="0.5"/>
+<text x="342" y="500" class="t" font-size="12.5" font-weight="600" fill="#EAF2FF">Zeynep K.</text>
+<text x="415" y="500" class="m" font-size="10.5" fill="#5C6E88">@zeynepk · 4s</text>
+<text x="342" y="522" class="t" font-size="12.5" fill="#AFC0D6">Sepet uygulamasında toplu silme çok iyi olmuş 👏</text>
+<text x="342" y="538" class="m" font-size="10" fill="#4E5F78">↺ 5   ♡ 21</text>
+<rect x="276" y="556" width="588" height="70" rx="12" fill="#0A1119" stroke="#1B2740"/>
+<circle cx="308" cy="582" r="15" fill="#34D399" fill-opacity="0.18" stroke="#34D399" stroke-opacity="0.5"/>
+<text x="342" y="578" class="t" font-size="12.5" font-weight="600" fill="#EAF2FF">Mert A.</text>
+<text x="401" y="578" class="m" font-size="10.5" fill="#5C6E88">@mertdev · 6s</text>
+<text x="342" y="600" class="t" font-size="12.5" fill="#AFC0D6">Socket.io ile chat yazmak hâlâ en keyifli iş.</text>
+<text x="342" y="616" class="m" font-size="10" fill="#4E5F78">↺ 9   ♡ 33</text>
+<rect x="880" y="272" width="344" height="360" rx="14" fill="#0D1420" fill-opacity="0.95" stroke="#22304A"/>
+<text x="904" y="306" class="t" font-size="12" fill="#F472B6" letter-spacing="2">GÜNDEM</text>
+<text x="904" y="344" class="t" font-size="13" font-weight="600" fill="#EAF2FF">#React</text>
+<text x="904" y="362" class="m" font-size="10.5" fill="#5C6E88">2.418 tweet</text>
+<line x1="904" y1="378" x2="1200" y2="378" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="904" y="406" class="t" font-size="13" font-weight="600" fill="#EAF2FF">#TypeScript</text>
+<text x="904" y="424" class="m" font-size="10.5" fill="#5C6E88">1.902 tweet</text>
+<line x1="904" y1="440" x2="1200" y2="440" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="904" y="468" class="t" font-size="13" font-weight="600" fill="#EAF2FF">#Kodluyoruz</text>
+<text x="904" y="486" class="m" font-size="10.5" fill="#5C6E88">874 tweet</text>
+<line x1="904" y1="502" x2="1200" y2="502" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="904" y="530" class="t" font-size="13" font-weight="600" fill="#EAF2FF">#SocketIO</text>
+<text x="904" y="548" class="m" font-size="10.5" fill="#5C6E88">512 tweet</text>
+<line x1="904" y1="564" x2="1200" y2="564" stroke="#FFFFFF" stroke-opacity="0.05"/>
+<text x="904" y="604" class="m" font-size="10.5" fill="#3E4E68">AuthModal · TweetBox · DeveloperModal</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#60A5FA">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

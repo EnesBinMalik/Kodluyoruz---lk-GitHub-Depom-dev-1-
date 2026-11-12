@@ -1,0 +1,6 @@
+{
+  "name": "Sepet Uygulaması | Enes Öztürk",
+  "description": "Modern ürün listeleme, dinamik sepet yönetimi, çoklu ürün ekleme, tekli ve toplu silme özellikli sepet uygulaması. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Tweet Uygulaması 2 — MVC — Enes Öztürk">
+<title>Tweet Uygulaması 2 — MVC · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A78BFA"/><stop offset="60%" stop-color="#34D399"/><stop offset="100%" stop-color="#34D399" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.30"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#34D399" stop-opacity="0.26"/><stop offset="100%" stop-color="#34D399" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">15 · TWEET MVC</text><text x="1224" y="46" text-anchor="end" fill="#A78BFA" fill-opacity="0.9">MİMARİ</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="64" fill="#F2EEFF">Tweet Uygulaması 2</text>
+<text x="60" y="214" class="t" font-size="17" fill="#9C93BF" letter-spacing="3">OOP · MVC · 180 KARAKTER</text>
+<rect x="60" y="236" width="70" height="2" fill="#A78BFA" fill-opacity="0.75"/>
+<rect x="56" y="278" width="216" height="150" rx="14" fill="#100D18" stroke="#A78BFA" stroke-opacity="0.35"/>
+<rect x="56" y="278" width="216" height="4" rx="2" fill="#A78BFA" fill-opacity="0.85"/>
+<text x="76" y="310" class="t" font-size="13" font-weight="700" fill="#A78BFA" letter-spacing="1.5">MODEL</text>
+<text x="76" y="336" class="m" font-size="11" fill="#7E749B">models/</text>
+<text x="76" y="362" class="m" font-size="10.5" fill="#5E567A">Tweet · User</text>
+<rect x="76" y="382" width="120" height="8" rx="4" fill="#A78BFA" fill-opacity="0.2"/>
+<rect x="76" y="398" width="150" height="8" rx="4" fill="#A78BFA" fill-opacity="0.13"/>
+<text x="280" y="358" class="t" font-size="16" fill="#A78BFA" fill-opacity="0.6">→</text>
+<rect x="292" y="278" width="216" height="150" rx="14" fill="#100D18" stroke="#34D399" stroke-opacity="0.35"/>
+<rect x="292" y="278" width="216" height="4" rx="2" fill="#34D399" fill-opacity="0.85"/>
+<text x="312" y="310" class="t" font-size="13" font-weight="700" fill="#34D399" letter-spacing="1.5">VIEW</text>
+<text x="312" y="336" class="m" font-size="11" fill="#7E749B">views/</text>
+<text x="312" y="362" class="m" font-size="10.5" fill="#5E567A">TweetCard · Compose</text>
+<rect x="312" y="382" width="120" height="8" rx="4" fill="#34D399" fill-opacity="0.2"/>
+<rect x="312" y="398" width="150" height="8" rx="4" fill="#34D399" fill-opacity="0.13"/>
+<text x="516" y="358" class="t" font-size="16" fill="#A78BFA" fill-opacity="0.6">→</text>
+<rect x="528" y="278" width="216" height="150" rx="14" fill="#100D18" stroke="#FBBF24" stroke-opacity="0.35"/>
+<rect x="528" y="278" width="216" height="4" rx="2" fill="#FBBF24" fill-opacity="0.85"/>
+<text x="548" y="310" class="t" font-size="13" font-weight="700" fill="#FBBF24" letter-spacing="1.5">CONTROLLER</text>
+<text x="548" y="336" class="m" font-size="11" fill="#7E749B">controllers/</text>
+<text x="548" y="362" class="m" font-size="10.5" fill="#5E567A">TweetController</text>
+<rect x="548" y="382" width="180" height="8" rx="4" fill="#FBBF24" fill-opacity="0.2"/>
+<rect x="548" y="398" width="120" height="8" rx="4" fill="#FBBF24" fill-opacity="0.13"/>
+<rect x="56" y="456" width="700" height="176" rx="14" fill="#100D18" stroke="#2C2540"/>
+<text x="78" y="486" class="t" font-size="11.5" fill="#34D399" letter-spacing="2">COMPOSE · 118/180</text>
+<circle cx="96" cy="518" r="14" fill="#A78BFA" fill-opacity="0.2" stroke="#A78BFA" stroke-opacity="0.6"/>
+<text x="124" y="514" class="t" font-size="12.5" font-weight="600" fill="#F2EEFF">Enes Öztürk</text>
+<text x="206" y="514" class="m" font-size="10.5" fill="#6E668C">@enesbinmalik</text>
+<text x="124" y="538" class="t" font-size="12.5" fill="#B9B0D6">MVC mimarisiyle tweet uygulaması —</text>
+<text x="124" y="558" class="t" font-size="12.5" fill="#B9B0D6">model, view, controller ayrı ayrı.</text>
+<rect x="124" y="570" width="656" height="6" rx="3" fill="#34D399" fill-opacity="0.15"/>
+<rect x="124" y="570" width="430" height="6" rx="3" fill="#34D399" fill-opacity="0.8"/>
+<text x="124" y="606" class="m" font-size="10" fill="#5E567A">↺ 18   ♡ 64   ⋯</text>
+<rect x="638" y="586" width="96" height="30" rx="15" fill="#A78BFA" fill-opacity="0.18" stroke="#A78BFA" stroke-opacity="0.55"/>
+<text x="686" y="605" text-anchor="middle" class="t" font-size="11.5" font-weight="600" fill="#A78BFA">Gönder</text>
+<rect x="786" y="456" width="438" height="176" rx="14" fill="#100D18" stroke="#2C2540"/>
+<text x="808" y="486" class="t" font-size="11.5" fill="#34D399" letter-spacing="2">DOSYA DÜZENİ</text>
+<text x="808" y="514" class="m" font-size="11" fill="#7E749B">src/</text>
+<text x="808" y="538" class="m" font-size="11" fill="#B9B0D6">├── models/Tweet.ts</text>
+<text x="808" y="562" class="m" font-size="11" fill="#B9B0D6">├── views/TweetCard.tsx</text>
+<text x="808" y="586" class="m" font-size="11" fill="#B9B0D6">└── controllers/TweetController.ts</text>
+<text x="808" y="616" class="m" font-size="10.5" fill="#4E4766">ArchitectureModal · EnesSignature</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#A78BFA">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

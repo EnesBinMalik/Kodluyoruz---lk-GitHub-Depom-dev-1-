@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Sepet Uygulaması — Enes Öztürk">
+<title>Sepet Uygulaması · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FB923C"/><stop offset="60%" stop-color="#4ADE80"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FB923C" stop-opacity="0.30"/><stop offset="100%" stop-color="#FB923C" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#4ADE80" stop-opacity="0.26"/><stop offset="100%" stop-color="#4ADE80" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">13 · SEPET</text><text x="1224" y="46" text-anchor="end" fill="#FB923C" fill-opacity="0.9">E-TİCARET</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="68" fill="#FFF3E8">Sepet Uygulaması</text>
+<text x="60" y="214" class="t" font-size="17" fill="#B39A86" letter-spacing="3">ÜRÜN · SEPET · ÖDEME</text>
+<rect x="60" y="236" width="70" height="2" fill="#FB923C" fill-opacity="0.75"/>
+<rect x="56" y="276" width="160" height="212" rx="14" fill="#141018" fill-opacity="0.95" stroke="#2E2634"/>
+<rect x="56" y="276" width="160" height="96" rx="14" fill="#3B82F6" fill-opacity="0.13"/>
+<rect x="108" y="306" width="56" height="40" rx="8" fill="none" stroke="#3B82F6" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="136" cy="326" r="8" fill="none" stroke="#3B82F6" stroke-opacity="0.5"/>
+<text x="72" y="406" class="t" font-size="12.5" font-weight="600" fill="#F4EDF8">Kablosuz Kulaklı</text>
+<text x="72" y="428" class="m" font-size="11" fill="#8B7C93">stokta · 4.8 ★</text>
+<text x="72" y="456" class="t" font-size="16" font-weight="700" fill="#FB923C">₺1.299</text>
+<rect x="152" y="440" width="48" height="26" rx="13" fill="#FB923C" fill-opacity="0.18" stroke="#FB923C" stroke-opacity="0.5"/>
+<text x="176" y="457" text-anchor="middle" class="m" font-size="10" fill="#FB923C">EKLE</text>
+<rect x="234" y="276" width="160" height="212" rx="14" fill="#141018" fill-opacity="0.95" stroke="#2E2634"/>
+<rect x="234" y="276" width="160" height="96" rx="14" fill="#8B5CF6" fill-opacity="0.13"/>
+<rect x="286" y="306" width="56" height="40" rx="8" fill="none" stroke="#8B5CF6" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="314" cy="326" r="8" fill="none" stroke="#8B5CF6" stroke-opacity="0.5"/>
+<text x="250" y="406" class="t" font-size="12.5" font-weight="600" fill="#F4EDF8">Akıllı Saat</text>
+<text x="250" y="428" class="m" font-size="11" fill="#8B7C93">stokta · 4.8 ★</text>
+<text x="250" y="456" class="t" font-size="16" font-weight="700" fill="#FB923C">₺2.499</text>
+<rect x="330" y="440" width="48" height="26" rx="13" fill="#FB923C" fill-opacity="0.18" stroke="#FB923C" stroke-opacity="0.5"/>
+<text x="354" y="457" text-anchor="middle" class="m" font-size="10" fill="#FB923C">EKLE</text>
+<rect x="412" y="276" width="160" height="212" rx="14" fill="#141018" fill-opacity="0.95" stroke="#2E2634"/>
+<rect x="412" y="276" width="160" height="96" rx="14" fill="#F59E0B" fill-opacity="0.13"/>
+<rect x="464" y="306" width="56" height="40" rx="8" fill="none" stroke="#F59E0B" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="492" cy="326" r="8" fill="none" stroke="#F59E0B" stroke-opacity="0.5"/>
+<text x="428" y="406" class="t" font-size="12.5" font-weight="600" fill="#F4EDF8">Mekanik Klavye</text>
+<text x="428" y="428" class="m" font-size="11" fill="#8B7C93">stokta · 4.8 ★</text>
+<text x="428" y="456" class="t" font-size="16" font-weight="700" fill="#FB923C">₺899</text>
+<rect x="508" y="440" width="48" height="26" rx="13" fill="#FB923C" fill-opacity="0.18" stroke="#FB923C" stroke-opacity="0.5"/>
+<text x="532" y="457" text-anchor="middle" class="m" font-size="10" fill="#FB923C">EKLE</text>
+<rect x="590" y="276" width="160" height="212" rx="14" fill="#141018" fill-opacity="0.95" stroke="#2E2634"/>
+<rect x="590" y="276" width="160" height="96" rx="14" fill="#10B981" fill-opacity="0.13"/>
+<rect x="642" y="306" width="56" height="40" rx="8" fill="none" stroke="#10B981" stroke-opacity="0.7" stroke-width="2"/>
+<circle cx="670" cy="326" r="8" fill="none" stroke="#10B981" stroke-opacity="0.5"/>
+<text x="606" y="406" class="t" font-size="12.5" font-weight="600" fill="#F4EDF8">Taşınabilir SSD</text>
+<text x="606" y="428" class="m" font-size="11" fill="#8B7C93">stokta · 4.8 ★</text>
+<text x="606" y="456" class="t" font-size="16" font-weight="700" fill="#FB923C">₺1.749</text>
+<rect x="686" y="440" width="48" height="26" rx="13" fill="#FB923C" fill-opacity="0.18" stroke="#FB923C" stroke-opacity="0.5"/>
+<text x="710" y="457" text-anchor="middle" class="m" font-size="10" fill="#FB923C">EKLE</text>
+<rect x="786" y="276" width="438" height="356" rx="16" fill="#141018" fill-opacity="0.96" stroke="#2E2634"/>
+<text x="810" y="310" class="t" font-size="12" fill="#4ADE80" letter-spacing="2">SEPETİM · 3 ÜRÜN</text>
+<rect x="810" y="326" width="26" height="26" rx="6" fill="#FB923C" fill-opacity="0.12"/>
+<text x="848" y="344" class="t" font-size="12.5" fill="#EDE4F2">Kablosuz Kulaklık</text>
+<text x="1200" y="344" text-anchor="end" class="m" font-size="11.5" fill="#B39A86">1 × ₺1.299</text>
+<line x1="810" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<rect x="810" y="372" width="26" height="26" rx="6" fill="#FB923C" fill-opacity="0.12"/>
+<text x="848" y="390" class="t" font-size="12.5" fill="#EDE4F2">Akıllı Saat</text>
+<text x="1200" y="390" text-anchor="end" class="m" font-size="11.5" fill="#B39A86">2 × ₺4.998</text>
+<line x1="810" y1="406" x2="1200" y2="406" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<rect x="810" y="418" width="26" height="26" rx="6" fill="#FB923C" fill-opacity="0.12"/>
+<text x="848" y="436" class="t" font-size="12.5" fill="#EDE4F2">Mekanik Klavye</text>
+<text x="1200" y="436" text-anchor="end" class="m" font-size="11.5" fill="#B39A86">1 × ₺899</text>
+<line x1="810" y1="452" x2="1200" y2="452" stroke="#FFFFFF" stroke-opacity="0.06"/>
+<line x1="810" y1="498" x2="1200" y2="498" stroke="#FB923C" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+<text x="810" y="528" class="m" font-size="11" fill="#8B7C93">TOPLAM</text>
+<text x="1200" y="530" text-anchor="end" class="t" font-size="22" font-weight="700" fill="#FB923C">₺7.196</text>
+<rect x="810" y="560" width="390" height="48" rx="24" fill="#4ADE80" fill-opacity="0.16" stroke="#4ADE80" stroke-opacity="0.6"/>
+<text x="1005.0" y="590" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#4ADE80">ÖDEMEYE GEÇ</text>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#FB923C">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

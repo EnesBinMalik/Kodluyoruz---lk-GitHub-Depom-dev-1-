@@ -1,0 +1,6 @@
+{
+  "name": "Tweet Uygulaması - Enes Öztürk",
+  "description": "180 karakter sınırlı, kullanıcı kayıt ve giriş sistemli, en yeni tweetlerin başta gösterildiği modern mikroblog uygulaması. Enes Öztürk imzalı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

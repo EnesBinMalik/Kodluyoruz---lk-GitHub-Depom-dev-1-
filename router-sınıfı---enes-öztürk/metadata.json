@@ -1,0 +1,6 @@
+{
+  "name": "Router Sınıfı - Enes Öztürk",
+  "description": "Müşteri Yönetim Sistemi için regex parametreli, GET/POST ayrımı ve Class@Method çağrımı destekleyen gelişmiş Router sınıfı ve test platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

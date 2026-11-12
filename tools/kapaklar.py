@@ -690,6 +690,210 @@ def tkm() -> str:
     L.append("</svg>")
     return "\n".join(L) + "\n"
 
+def sepet() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#FB923C", "#4ADE80"
+    L = base(W, H, "Sepet Uygulaması", C1, C2, "E-TİCARET", "13 · SEPET")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="68" fill="#FFF3E8">Sepet Uygulaması</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#B39A86" letter-spacing="3">ÜRÜN · SEPET · ÖDEME</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    # ürün kartları
+    prods = [("Kablosuz Kulaklık", "₺1.299", "#3B82F6"), ("Akıllı Saat", "₺2.499", "#8B5CF6"),
+             ("Mekanik Klavye", "₺899", "#F59E0B"), ("Taşınabilir SSD", "₺1.749", "#10B981")]
+    for i, (n, price, col) in enumerate(prods):
+        x = 56 + i * 178
+        y = 276
+        a(f'<rect x="{x}" y="{y}" width="160" height="212" rx="14" fill="#141018" fill-opacity="0.95" stroke="#2E2634"/>')
+        a(f'<rect x="{x}" y="{y}" width="160" height="96" rx="14" fill="{col}" fill-opacity="0.13"/>')
+        a(f'<rect x="{x+52}" y="{y+30}" width="56" height="40" rx="8" fill="none" stroke="{col}" stroke-opacity="0.7" stroke-width="2"/>')
+        a(f'<circle cx="{x+80}" cy="{y+50}" r="8" fill="none" stroke="{col}" stroke-opacity="0.5"/>')
+        a(f'<text x="{x+16}" y="{y+130}" class="t" font-size="12.5" font-weight="600" fill="#F4EDF8">{n[:16]}</text>')
+        a(f'<text x="{x+16}" y="{y+152}" class="m" font-size="11" fill="#8B7C93">stokta · 4.8 ★</text>')
+        a(f'<text x="{x+16}" y="{y+180}" class="t" font-size="16" font-weight="700" fill="{C1}">{price}</text>')
+        a(f'<rect x="{x+96}" y="{y+164}" width="48" height="26" rx="13" fill="{C1}" fill-opacity="0.18" stroke="{C1}" stroke-opacity="0.5"/>')
+        a(f'<text x="{x+120}" y="{y+181}" text-anchor="middle" class="m" font-size="10" fill="{C1}">EKLE</text>')
+
+    # sepet çekmecesi
+    px, py, pw, ph = 786, 276, 438, 356
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#141018" fill-opacity="0.96" stroke="#2E2634"/>')
+    a(f'<text x="{px+24}" y="{py+34}" class="t" font-size="12" fill="{C2}" letter-spacing="2">SEPETİM · 3 ÜRÜN</text>')
+    items = [("Kablosuz Kulaklık", "1 × ₺1.299"), ("Akıllı Saat", "2 × ₺4.998"), ("Mekanik Klavye", "1 × ₺899")]
+    for i, (n, v) in enumerate(items):
+        y = py + 68 + i * 46
+        a(f'<rect x="{px+24}" y="{y-18}" width="26" height="26" rx="6" fill="{C1}" fill-opacity="0.12"/>')
+        a(f'<text x="{px+62}" y="{y}" class="t" font-size="12.5" fill="#EDE4F2">{n}</text>')
+        a(f'<text x="{px+pw-24}" y="{y}" text-anchor="end" class="m" font-size="11.5" fill="#B39A86">{v}</text>')
+        a(f'<line x1="{px+24}" y1="{y+16}" x2="{px+pw-24}" y2="{y+16}" stroke="#FFFFFF" stroke-opacity="0.06"/>')
+    a(f'<line x1="{px+24}" y1="{py+222}" x2="{px+pw-24}" y2="{py+222}" stroke="{C1}" stroke-opacity="0.3" stroke-dasharray="4 4"/>')
+    a(f'<text x="{px+24}" y="{py+252}" class="m" font-size="11" fill="#8B7C93">TOPLAM</text>')
+    a(f'<text x="{px+pw-24}" y="{py+254}" text-anchor="end" class="t" font-size="22" font-weight="700" fill="{C1}">₺7.196</text>')
+    a(f'<rect x="{px+24}" y="{py+ph-72}" width="{pw-48}" height="48" rx="24" fill="{C2}" fill-opacity="0.16" stroke="{C2}" stroke-opacity="0.6"/>')
+    a(f'<text x="{px+pw/2}" y="{py+ph-42}" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="{C2}">ÖDEMEYE GEÇ</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— TWEET 1 —————————————————————————
+def tweet1() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#60A5FA", "#F472B6"
+    L = base(W, H, "Tweet Uygulaması", C1, C2, "MİKROBLOG", "14 · TWEET")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="68" fill="#EDF4FF">Tweet Uygulaması</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#8FA6C4" letter-spacing="3">180 KARAKTER · GİRİŞ · AKIŞ</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    # sol menü
+    a(f'<rect x="56" y="272" width="200" height="360" rx="14" fill="#0D1420" fill-opacity="0.95" stroke="#22304A"/>')
+    for i, n in enumerate(["Akış", "Keşfet", "Bildirimler", "Profil"]):
+        y = 320 + i * 52
+        act = i == 0
+        a(f'<rect x="{68}" y="{y-24}" width="176" height="40" rx="10" fill="{C1}" fill-opacity="{0.14 if act else 0}"/>')
+        a(f'<circle cx="{88}" cy="{y-4}" r="5" fill="{C1 if act else "#3E4E68"}"/>')
+        a(f'<text x="{104}" y="{y}" class="t" font-size="13" fill="{"#EAF2FF" if act else "#7E90AB"}">{n}</text>')
+    # tweet kutusu
+    a(f'<rect x="276" y="272" width="588" height="112" rx="14" fill="#0D1420" fill-opacity="0.95" stroke="#22304A"/>')
+    a(f'<circle cx="312" cy="312" r="18" fill="{C1}" fill-opacity="0.2" stroke="{C1}" stroke-opacity="0.6"/>')
+    a(f'<text x="312" y="317" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="{C1}">EÖ</text>')
+    a(f'<text x="344" y="318" class="t" font-size="14" fill="#5C6E88">Neler oluyor?</text>')
+    a(f'<line x1="296" y1="336" x2="844" y2="336" stroke="#FFFFFF" stroke-opacity="0.06"/>')
+    a(f'<text x="300" y="366" class="m" font-size="11" fill="#4E5F78">0 / 180</text>')
+    a(f'<rect x="756" y="348" width="96" height="30" rx="15" fill="{C1}" fill-opacity="0.2" stroke="{C1}" stroke-opacity="0.55"/>')
+    a(f'<text x="804" y="367" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="{C1}">Paylaş</text>')
+    # akış
+    tweets = [("Enes Öztürk", "@enesbinmalik", "2d", "Router sınıfını bitirdim — regex parametreler artık sorunsuz.", "12", "48", "#60A5FA"),
+              ("Zeynep K.", "@zeynepk", "4s", "Sepet uygulamasında toplu silme çok iyi olmuş 👏", "5", "21", "#F472B6"),
+              ("Mert A.", "@mertdev", "6s", "Socket.io ile chat yazmak hâlâ en keyifli iş.", "9", "33", "#34D399")]
+    for i, (who, handle, when, text, rt, lk, col) in enumerate(tweets):
+        y = 400 + i * 78
+        a(f'<rect x="276" y="{y}" width="588" height="70" rx="12" fill="#0A1119" stroke="#1B2740"/>')
+        a(f'<circle cx="308" cy="{y+26}" r="15" fill="{col}" fill-opacity="0.18" stroke="{col}" stroke-opacity="0.5"/>')
+        a(f'<text x="342" y="{y+22}" class="t" font-size="12.5" font-weight="600" fill="#EAF2FF">{who}</text>')
+        a(f'<text x="{342+len(who)*7+10}" y="{y+22}" class="m" font-size="10.5" fill="#5C6E88">{handle} · {when}</text>')
+        a(f'<text x="342" y="{y+44}" class="t" font-size="12.5" fill="#AFC0D6">{text[:62]}</text>')
+        a(f'<text x="342" y="{y+60}" class="m" font-size="10" fill="#4E5F78">↺ {rt}   ♡ {lk}</text>')
+    # sağ: trendler
+    a(f'<rect x="880" y="272" width="344" height="360" rx="14" fill="#0D1420" fill-opacity="0.95" stroke="#22304A"/>')
+    a(f'<text x="904" y="306" class="t" font-size="12" fill="{C2}" letter-spacing="2">GÜNDEM</text>')
+    for i, (tag, cnt) in enumerate([("#React", "2.418 tweet"), ("#TypeScript", "1.902 tweet"),
+                                    ("#Kodluyoruz", "874 tweet"), ("#SocketIO", "512 tweet")]):
+        y = 344 + i * 62
+        a(f'<text x="904" y="{y}" class="t" font-size="13" font-weight="600" fill="#EAF2FF">{tag}</text>')
+        a(f'<text x="904" y="{y+18}" class="m" font-size="10.5" fill="#5C6E88">{cnt}</text>')
+        a(f'<line x1="904" y1="{y+34}" x2="1200" y2="{y+34}" stroke="#FFFFFF" stroke-opacity="0.05"/>')
+    a(f'<text x="904" y="604" class="m" font-size="10.5" fill="#3E4E68">AuthModal · TweetBox · DeveloperModal</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— TWEET 2 (MVC) —————————————————————————
+def tweet2() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#A78BFA", "#34D399"
+    L = base(W, H, "Tweet Uygulaması 2 — MVC", C1, C2, "MİMARİ", "15 · TWEET MVC")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="64" fill="#F2EEFF">Tweet Uygulaması 2</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#9C93BF" letter-spacing="3">OOP · MVC · 180 KARAKTER</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    # MVC katmanları
+    layers = [("MODEL", "models/", "Tweet · User", "#A78BFA"),
+              ("VIEW", "views/", "TweetCard · Compose", "#34D399"),
+              ("CONTROLLER", "controllers/", "TweetController", "#FBBF24")]
+    for i, (name, path, cls, col) in enumerate(layers):
+        x = 56 + i * 236
+        a(f'<rect x="{x}" y="278" width="216" height="150" rx="14" fill="#100D18" stroke="{col}" stroke-opacity="0.35"/>')
+        a(f'<rect x="{x}" y="278" width="216" height="4" rx="2" fill="{col}" fill-opacity="0.85"/>')
+        a(f'<text x="{x+20}" y="{310}" class="t" font-size="13" font-weight="700" fill="{col}" letter-spacing="1.5">{name}</text>')
+        a(f'<text x="{x+20}" y="336" class="m" font-size="11" fill="#7E749B">{path}</text>')
+        a(f'<text x="{x+20}" y="362" class="m" font-size="10.5" fill="#5E567A">{cls}</text>')
+        a(f'<rect x="{x+20}" y="382" width="{180 if i==2 else 120}" height="8" rx="4" fill="{col}" fill-opacity="0.2"/>')
+        a(f'<rect x="{x+20}" y="398" width="{120 if i==2 else 150}" height="8" rx="4" fill="{col}" fill-opacity="0.13"/>')
+        if i < 2:
+            a(f'<text x="{x+224}" y="358" class="t" font-size="16" fill="{C1}" fill-opacity="0.6">→</text>')
+    # tweet önizleme
+    px, py, pw, ph = 56, 456, 700, 176
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="14" fill="#100D18" stroke="#2C2540"/>')
+    a(f'<text x="{px+22}" y="{py+30}" class="t" font-size="11.5" fill="{C2}" letter-spacing="2">COMPOSE · 118/180</text>')
+    a(f'<circle cx="{px+40}" cy="{py+62}" r="14" fill="{C1}" fill-opacity="0.2" stroke="{C1}" stroke-opacity="0.6"/>')
+    a(f'<text x="{px+68}" y="{py+58}" class="t" font-size="12.5" font-weight="600" fill="#F2EEFF">Enes Öztürk</text>')
+    a(f'<text x="{px+150}" y="{py+58}" class="m" font-size="10.5" fill="#6E668C">@enesbinmalik</text>')
+    a(f'<text x="{px+68}" y="{py+82}" class="t" font-size="12.5" fill="#B9B0D6">MVC mimarisiyle tweet uygulaması —</text>')
+    a(f'<text x="{px+68}" y="{py+102}" class="t" font-size="12.5" fill="#B9B0D6">model, view, controller ayrı ayrı.</text>')
+    a(f'<rect x="{px+68}" y="{py+114}" width="{pw-44}" height="6" rx="3" fill="{C2}" fill-opacity="0.15"/>')
+    a(f'<rect x="{px+68}" y="{py+114}" width="{(pw-44)*118/180:.0f}" height="6" rx="3" fill="{C2}" fill-opacity="0.8"/>')
+    a(f'<text x="{px+68}" y="{py+150}" class="m" font-size="10" fill="#5E567A">↺ 18   ♡ 64   ⋯</text>')
+    a(f'<rect x="{px+pw-118}" y="{py+ph-46}" width="96" height="30" rx="15" fill="{C1}" fill-opacity="0.18" stroke="{C1}" stroke-opacity="0.55"/>')
+    a(f'<text x="{px+pw-70}" y="{py+ph-27}" text-anchor="middle" class="t" font-size="11.5" font-weight="600" fill="{C1}">Gönder</text>')
+    # sağ: dosya ağacı
+    tx, ty, tw, th = 786, 456, 438, 176
+    a(f'<rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="14" fill="#100D18" stroke="#2C2540"/>')
+    a(f'<text x="{tx+22}" y="{ty+30}" class="t" font-size="11.5" fill="{C2}" letter-spacing="2">DOSYA DÜZENİ</text>')
+    tree = ["src/", "├── models/Tweet.ts", "├── views/TweetCard.tsx", "└── controllers/TweetController.ts"]
+    for i, t in enumerate(tree):
+        a(f'<text x="{tx+22}" y="{ty+58+i*24}" class="m" font-size="11" fill="{"#B9B0D6" if i else "#7E749B"}">{t}</text>')
+    a(f'<text x="{tx+22}" y="{ty+th-16}" class="m" font-size="10.5" fill="#4E4766">ArchitectureModal · EnesSignature</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
+# ————————————————————————— ROUTER SINIFI —————————————————————————
+def router() -> str:
+    W, H = 1280, 720
+    C1, C2 = "#FBBF24", "#38BDF8"
+    L = base(W, H, "Router Sınıfı", C1, C2, "PHP · MİMARİ", "16 · ROUTER", with_grid=True)
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="66" fill="#FFF8E6">Router Sınıfı</text>')
+    a(f'<text x="60" y="214" class="t" font-size="17" fill="#A89876" letter-spacing="3">REGEX PARAMETRE · GET/POST · CLASS@METHOD</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    # kod paneli
+    px, py, pw, ph = 56, 272, 640, 358
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="14" fill="#0C1017" stroke="#2A3240"/>')
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="36" rx="14" fill="#131A24"/><rect x="{px}" y="{py+22}" width="{pw}" height="14" fill="#131A24"/>')
+    for i, col in enumerate(["#F87171", "#FBBF24", "#4ADE80"]):
+        a(f'<circle cx="{px+22+i*16}" cy="{py+18}" r="4.5" fill="{col}" fill-opacity="0.8"/>')
+    a(f'<text x="{px+90}" y="{py+23}" class="m" font-size="10.5" fill="#5A6778">Router.php</text>')
+    code = [("$router->get(", "/kullanici/{id}", "CustomerController@show", C1),
+            ("$router->post(", "/kullanici/ekle", "CustomerController@store", C2),
+            ("$router->get(", "/kullanici/{id}/siparis", "OrderController@index", C1),
+            ("$router->post(", "/giris", "AuthController@login", C2),
+            ("$router->get(", "/", "HomeController@index", C1)]
+    for i, (pre, path, cls, col) in enumerate(code):
+        y = py + 70 + i * 44
+        a(f'<text x="{px+20}" y="{y}" class="m" font-size="11.5" fill="#7E8B9E">{i+1}</text>')
+        a(f'<text x="{px+44}" y="{y}" class="m" font-size="12" fill="#C6D2E0">{pre}</text>')
+        a(f'<text x="{px+140}" y="{y}" class="m" font-size="12" fill="{col}">{path}</text>')
+        a(f'<text x="{px+310}" y="{y}" class="m" font-size="12" fill="#9DB0C8">{cls}</text>')
+        a(f'<line x1="{px+16}" y1="{y+14}" x2="{px+pw-16}" y2="{y+14}" stroke="#FFFFFF" stroke-opacity="0.04"/>')
+    a(f'<text x="{px+20}" y="{py+ph-16}" class="m" font-size="10.5" fill="#3E4A5C">regex: #^/kullanici/(\d+)$#</text>')
+
+    # sağ: test konsolu
+    sx, sy, sw, sh = 726, 272, 498, 358
+    a(f'<rect x="{sx}" y="{sy}" width="{sw}" height="{sh}" rx="14" fill="#0C1017" stroke="#2A3240"/>')
+    a(f'<text x="{sx+24}" y="{sy+32}" class="t" font-size="12" fill="{C2}" letter-spacing="2">DISPATCHER KONSOLU</text>')
+    rows = [("GET", "/kullanici/42", "200", "#4ADE80"), ("POST", "/kullanici/ekle", "201", "#4ADE80"),
+            ("GET", "/kullanici/42/siparis", "200", "#4ADE80"), ("POST", "/giris", "401", "#F87171"),
+            ("GET", "/bilinmeyen", "404", "#F87171")]
+    for i, (m, path, code, col) in enumerate(rows):
+        y = sy + 66 + i * 40
+        mc = C1 if m == "GET" else C2
+        a(f'<rect x="{sx+24}" y="{y-16}" width="46" height="22" rx="6" fill="{mc}" fill-opacity="0.14" stroke="{mc}" stroke-opacity="0.4"/>')
+        a(f'<text x="{sx+47}" y="{y}" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="{mc}">{m}</text>')
+        a(f'<text x="{sx+80}" y="{y}" class="m" font-size="11.5" fill="#C6D2E0">{path}</text>')
+        a(f'<text x="{sx+sw-24}" y="{y}" text-anchor="end" class="m" font-size="11.5" font-weight="700" fill="{col}">{code}</text>')
+        a(f'<line x1="{sx+24}" y1="{y+14}" x2="{sx+sw-24}" y2="{y+14}" stroke="#FFFFFF" stroke-opacity="0.04"/>')
+    a(f'<line x1="{sx+24}" y1="{sy+272}" x2="{sx+sw-24}" y2="{sy+272}" stroke="{C1}" stroke-opacity="0.25"/>')
+    a(f'<text x="{sx+24}" y="{sy+300}" class="m" font-size="11" fill="#7E8B9E">BİRİM TESTLERİ</text>')
+    a(f'<text x="{sx+sw-24}" y="{sy+300}" text-anchor="end" class="m" font-size="11.5" fill="#4ADE80">14 / 14 geçti</text>')
+    a(f'<rect x="{sx+24}" y="{sy+312}" width="{sw-48}" height="8" rx="4" fill="#1C2530"/>')
+    a(f'<rect x="{sx+24}" y="{sy+312}" width="{sw-48}" height="8" rx="4" fill="#4ADE80" fill-opacity="0.85"/>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
 PROJECTS = [
     ("enes-öztürk-atelier-_-lüks-giyim-&-e-ticaret", "Atelier — Lüks Giyim", "03",
      "#D4AF37", "#8B7355", atelier),
@@ -711,6 +915,14 @@ PROJECTS = [
      "#F472B6", "#60A5FA", hafiza),
     ("taş-kağıt-makas", "Taş Kağıt Makas", "12",
      "#38BDF8", "#FBBF24", tkm),
+    ("sepet-uygulaması-_-enes-öztürk", "Sepet Uygulaması", "13",
+     "#FB923C", "#4ADE80", sepet),
+    ("tweet-uygulaması---enes-öztürk", "Tweet Uygulaması", "14",
+     "#60A5FA", "#F472B6", tweet1),
+    ("tweet-uygulaması-2---enes-öztürk", "Tweet Uygulaması 2 — MVC", "15",
+     "#A78BFA", "#34D399", tweet2),
+    ("router-sınıfı---enes-öztürk", "Router Sınıfı", "16",
+     "#FBBF24", "#38BDF8", router),
 ]
 
 
@@ -722,9 +934,9 @@ def depo_kapagi() -> str:
     L = base(W, H, "Kodluyoruz — İlk GitHub Depom", C1, C2, "PROJE ARŞİVİ", "KODLUYORUZ · DEV-1")
     a = L.append
     a(f'<text x="56" y="176" class="ttl" font-size="64" fill="#E9F0FB">Kodluyoruz Arşivi</text>')
-    a(f'<text x="60" y="214" class="t" font-size="18" fill="#8FA0BD" letter-spacing="3">İLK GITHUB DEPOM · 12 PROJE</text>')
+    a(f'<text x="60" y="214" class="t" font-size="18" fill="#8FA0BD" letter-spacing="3">İLK GITHUB DEPOM · 15 PROJE</text>')
     a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
-    stats = [("12", "proje", C1), ("13", "kapak", C2), ("12", "rozet", "#FBBF24")]
+    stats = [("15", "proje", C1), ("17", "kapak", C2), ("16", "rozet", "#FBBF24")]
     for i, (n, lab, col) in enumerate(stats):
         x = 56 + i * 150
         a(f'<rect x="{x}" y="270" width="136" height="84" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>')
@@ -732,7 +944,8 @@ def depo_kapagi() -> str:
         a(f'<text x="{x+20}" y="312" class="t" font-size="26" font-weight="700" fill="{col}">{n}</text>')
         a(f'<text x="{x+20}" y="336" class="m" font-size="11" fill="#8FA0BD">{lab}</text>')
     names = ["Atelier", "Not Defteri", "VKİ &amp; Diyet", "Kripto", "Portfolyo", "Chat",
-             "Kitap Arama", "Form Yapımcısı", "Hafıza", "Taş Kağıt Makas"]
+             "Kitap Arama", "Form Yapımcısı", "Hafıza", "Taş Kağıt Makas", "Sepet", "Tweet",
+             "Tweet MVC", "Router Sınıfı"]
     for i, n in enumerate(names):
         col = i % 2
         row = i // 2
@@ -754,6 +967,8 @@ def depo_kapagi() -> str:
     return "\n".join(L) + "\n"
 
 
+
+# ————————————————————————— SEPET —————————————————————————
 def main() -> None:
     root_docs = ROOT / "docs"
     root_docs.mkdir(exist_ok=True)

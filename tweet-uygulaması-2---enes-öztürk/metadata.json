@@ -1,0 +1,6 @@
+{
+  "name": "Tweet Uygulaması 2 - Enes Öztürk",
+  "description": "OOP ve MVC mimarisi ile geliştirilmiş, 180 karakter limitli ve arkadaş odaklı gelişmiş tweet platformu. Enes Öztürk imzalıdır.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

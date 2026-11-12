@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Router Sınıfı — Enes Öztürk">
+<title>Router Sınıfı · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FBBF24"/><stop offset="60%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FBBF24" stop-opacity="0.30"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.26"/><stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<rect width="1280" height="720" fill="url(#grid)"/>
+<rect width="1280" height="720" fill="url(#noise)"/>
+<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">16 · ROUTER</text><text x="1224" y="46" text-anchor="end" fill="#FBBF24" fill-opacity="0.9">PHP · MİMARİ</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="66" fill="#FFF8E6">Router Sınıfı</text>
+<text x="60" y="214" class="t" font-size="17" fill="#A89876" letter-spacing="3">REGEX PARAMETRE · GET/POST · CLASS@METHOD</text>
+<rect x="60" y="236" width="70" height="2" fill="#FBBF24" fill-opacity="0.75"/>
+<rect x="56" y="272" width="640" height="358" rx="14" fill="#0C1017" stroke="#2A3240"/>
+<rect x="56" y="272" width="640" height="36" rx="14" fill="#131A24"/><rect x="56" y="294" width="640" height="14" fill="#131A24"/>
+<circle cx="78" cy="290" r="4.5" fill="#F87171" fill-opacity="0.8"/>
+<circle cx="94" cy="290" r="4.5" fill="#FBBF24" fill-opacity="0.8"/>
+<circle cx="110" cy="290" r="4.5" fill="#4ADE80" fill-opacity="0.8"/>
+<text x="146" y="295" class="m" font-size="10.5" fill="#5A6778">Router.php</text>
+<text x="76" y="342" class="m" font-size="11.5" fill="#7E8B9E">1</text>
+<text x="100" y="342" class="m" font-size="12" fill="#C6D2E0">$router->get(</text>
+<text x="196" y="342" class="m" font-size="12" fill="#FBBF24">/kullanici/{id}</text>
+<text x="366" y="342" class="m" font-size="12" fill="#9DB0C8">CustomerController@show</text>
+<line x1="72" y1="356" x2="680" y2="356" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<text x="76" y="386" class="m" font-size="11.5" fill="#7E8B9E">2</text>
+<text x="100" y="386" class="m" font-size="12" fill="#C6D2E0">$router->post(</text>
+<text x="196" y="386" class="m" font-size="12" fill="#38BDF8">/kullanici/ekle</text>
+<text x="366" y="386" class="m" font-size="12" fill="#9DB0C8">CustomerController@store</text>
+<line x1="72" y1="400" x2="680" y2="400" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<text x="76" y="430" class="m" font-size="11.5" fill="#7E8B9E">3</text>
+<text x="100" y="430" class="m" font-size="12" fill="#C6D2E0">$router->get(</text>
+<text x="196" y="430" class="m" font-size="12" fill="#FBBF24">/kullanici/{id}/siparis</text>
+<text x="366" y="430" class="m" font-size="12" fill="#9DB0C8">OrderController@index</text>
+<line x1="72" y1="444" x2="680" y2="444" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<text x="76" y="474" class="m" font-size="11.5" fill="#7E8B9E">4</text>
+<text x="100" y="474" class="m" font-size="12" fill="#C6D2E0">$router->post(</text>
+<text x="196" y="474" class="m" font-size="12" fill="#38BDF8">/giris</text>
+<text x="366" y="474" class="m" font-size="12" fill="#9DB0C8">AuthController@login</text>
+<line x1="72" y1="488" x2="680" y2="488" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<text x="76" y="518" class="m" font-size="11.5" fill="#7E8B9E">5</text>
+<text x="100" y="518" class="m" font-size="12" fill="#C6D2E0">$router->get(</text>
+<text x="196" y="518" class="m" font-size="12" fill="#FBBF24">/</text>
+<text x="366" y="518" class="m" font-size="12" fill="#9DB0C8">HomeController@index</text>
+<line x1="72" y1="532" x2="680" y2="532" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<text x="76" y="614" class="m" font-size="10.5" fill="#3E4A5C">regex: #^/kullanici/(\d+)$#</text>
+<rect x="726" y="272" width="498" height="358" rx="14" fill="#0C1017" stroke="#2A3240"/>
+<text x="750" y="304" class="t" font-size="12" fill="#38BDF8" letter-spacing="2">DISPATCHER KONSOLU</text>
+<rect x="750" y="322" width="46" height="22" rx="6" fill="#FBBF24" fill-opacity="0.14" stroke="#FBBF24" stroke-opacity="0.4"/>
+<text x="773" y="338" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#FBBF24">GET</text>
+<text x="806" y="338" class="m" font-size="11.5" fill="#C6D2E0">/kullanici/42</text>
+<text x="1200" y="338" text-anchor="end" class="m" font-size="11.5" font-weight="700" fill="#4ADE80">200</text>
+<line x1="750" y1="352" x2="1200" y2="352" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<rect x="750" y="362" width="46" height="22" rx="6" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.4"/>
+<text x="773" y="378" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#38BDF8">POST</text>
+<text x="806" y="378" class="m" font-size="11.5" fill="#C6D2E0">/kullanici/ekle</text>
+<text x="1200" y="378" text-anchor="end" class="m" font-size="11.5" font-weight="700" fill="#4ADE80">201</text>
+<line x1="750" y1="392" x2="1200" y2="392" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<rect x="750" y="402" width="46" height="22" rx="6" fill="#FBBF24" fill-opacity="0.14" stroke="#FBBF24" stroke-opacity="0.4"/>
+<text x="773" y="418" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#FBBF24">GET</text>
+<text x="806" y="418" class="m" font-size="11.5" fill="#C6D2E0">/kullanici/42/siparis</text>
+<text x="1200" y="418" text-anchor="end" class="m" font-size="11.5" font-weight="700" fill="#4ADE80">200</text>
+<line x1="750" y1="432" x2="1200" y2="432" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<rect x="750" y="442" width="46" height="22" rx="6" fill="#38BDF8" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.4"/>
+<text x="773" y="458" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#38BDF8">POST</text>
+<text x="806" y="458" class="m" font-size="11.5" fill="#C6D2E0">/giris</text>
+<text x="1200" y="458" text-anchor="end" class="m" font-size="11.5" font-weight="700" fill="#F87171">401</text>
+<line x1="750" y1="472" x2="1200" y2="472" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<rect x="750" y="482" width="46" height="22" rx="6" fill="#FBBF24" fill-opacity="0.14" stroke="#FBBF24" stroke-opacity="0.4"/>
+<text x="773" y="498" text-anchor="middle" class="m" font-size="9.5" font-weight="700" fill="#FBBF24">GET</text>
+<text x="806" y="498" class="m" font-size="11.5" fill="#C6D2E0">/bilinmeyen</text>
+<text x="1200" y="498" text-anchor="end" class="m" font-size="11.5" font-weight="700" fill="#F87171">404</text>
+<line x1="750" y1="512" x2="1200" y2="512" stroke="#FFFFFF" stroke-opacity="0.04"/>
+<line x1="750" y1="544" x2="1200" y2="544" stroke="#FBBF24" stroke-opacity="0.25"/>
+<text x="750" y="572" class="m" font-size="11" fill="#7E8B9E">BİRİM TESTLERİ</text>
+<text x="1200" y="572" text-anchor="end" class="m" font-size="11.5" fill="#4ADE80">14 / 14 geçti</text>
+<rect x="750" y="584" width="450" height="8" rx="4" fill="#1C2530"/>
+<rect x="750" y="584" width="450" height="8" rx="4" fill="#4ADE80" fill-opacity="0.85"/>
+<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#FBBF24">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>

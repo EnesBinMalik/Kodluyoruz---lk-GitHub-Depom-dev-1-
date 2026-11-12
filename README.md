@@ -6,9 +6,9 @@
 
 **Frontend yolculuğumun arşivi.** Her proje kendi klasöründe, kendi kapağıyla, kendi README'siyle.
 
-<a href="#projeler"><img src="https://img.shields.io/badge/projeler-11-22D3EE?style=flat-square" alt="projeler" /></a>
-<img src="https://img.shields.io/badge/kapak-11-A78BFA?style=flat-square" alt="kapak" />
-<img src="https://img.shields.io/badge/rozet-11-FBBF24?style=flat-square" alt="rozet" />
+<a href="#projeler"><img src="https://img.shields.io/badge/projeler-15-22D3EE?style=flat-square" alt="projeler" /></a>
+<img src="https://img.shields.io/badge/kapak-17-A78BFA?style=flat-square" alt="kapak" />
+<img src="https://img.shields.io/badge/rozet-16-FBBF24?style=flat-square" alt="rozet" />
 <img src="https://img.shields.io/badge/imza-Enes%20%C3%96zt%C3%BCrk-34D399?style=flat-square" alt="imza" />
 
 <sub>Tasarım ve geliştirme — <a href="https://github.com/EnesBinMalik">Enes Öztürk</a></sub>
@@ -34,6 +34,10 @@
 | <sub>`10`</sub> | [Form Yapımcısı](form-yap%C4%B1mc%C4%B1s%C4%B1) | Sürükle-bırak form aracı | <sub>React · sürükle-bırak</sub> | [kapak](form-yap%C4%B1mc%C4%B1s%C4%B1/docs/kapak.svg) |
 | <sub>`11`</sub> | [Hafıza Oyunu](haf%C4%B1za-oyunu---frontend-projeleri-_-enes-%C3%B6zt%C3%BCrk) | 4×3 kart eşleştirme | <sub>React · Web Audio</sub> | [kapak](haf%C4%B1za-oyunu---frontend-projeleri-_-enes-%C3%B6zt%C3%BCrk/docs/kapak.svg) |
 | <sub>`12`</sub> | [Taş Kağıt Makas](ta%C5%9F-ka%C4%9F%C4%B1t-makas) | Bilgisayara karşı oyun | <sub>React · Web Audio</sub> | [kapak](ta%C5%9F-ka%C4%9F%C4%B1t-makas/docs/kapak.svg) |
+| <sub>`13`</sub> | [Sepet Uygulaması](sepet-uygulamas%C4%B1-_-enes-%C3%B6zt%C3%BCrk) | E-ticaret sepeti | <sub>React · Context API</sub> | [kapak](sepet-uygulamas%C4%B1-_-enes-%C3%B6zt%C3%BCrk/docs/kapak.svg) |
+| <sub>`14`</sub> | [Tweet Uygulaması](tweet-uygulamas%C4%B1---enes-%C3%B6zt%C3%BCrk) | Mikroblog akışı | <sub>React · Context API</sub> | [kapak](tweet-uygulamas%C4%B1---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg) |
+| <sub>`15`</sub> | [Tweet Uygulaması 2 — MVC](tweet-uygulamas%C4%B1-2---enes-%C3%B6zt%C3%BCrk) | OOP · MVC mimarisi | <sub>React · OOP · MVC</sub> | [kapak](tweet-uygulamas%C4%B1-2---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg) |
+| <sub>`16`</sub> | [Router Sınıfı](router-s%C4%B1n%C4%B1f%C4%B1---enes-%C3%B6zt%C3%BCrk) | Regex router + test | <sub>React · Router mimarisi</sub> | [kapak](router-s%C4%B1n%C4%B1f%C4%B1---enes-%C3%B6zt%C3%BCrk/docs/kapak.svg) |
 
 </div>
 
