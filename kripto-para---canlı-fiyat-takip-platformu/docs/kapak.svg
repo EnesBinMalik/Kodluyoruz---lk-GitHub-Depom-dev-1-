@@ -1,86 +1,340 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Kripto Para — Canlı Fiyat Takip — Enes Öztürk">
-<title>Kripto Para — Canlı Fiyat Takip · Enes Öztürk</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Kripto Takip">
+<style>.t{font-family:'Segoe UI',system-ui,sans-serif}.ttl{font-family:'Segoe UI',system-ui,sans-serif;font-weight:700;letter-spacing:-1.5px}.m{font-family:'Consolas',monospace}.cap{font-family:'Segoe UI',sans-serif;font-weight:700;letter-spacing:4px}.ser{font-family:Georgia,serif;font-style:italic}</style>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
-<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F7931A"/><stop offset="60%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0.05"/></linearGradient>
-<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F7931A" stop-opacity="0.30"/><stop offset="100%" stop-color="#F7931A" stop-opacity="0"/></radialGradient>
-<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.26"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
-<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
-<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
-<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
-<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+<linearGradient id="bg" x1="0" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#04060A"/><stop offset="0.45" stop-color="#070C14"/><stop offset="1" stop-color="#0A1018"/></linearGradient>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00E5FF"/><stop offset="0.5" stop-color="#7C4DFF"/><stop offset="1" stop-color="#00E5FF"/></linearGradient>
+<linearGradient id="acv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C4DFF"/></linearGradient>
+<radialGradient id="g1" cx="0.82" cy="0.12" r="0.62"><stop offset="0" stop-color="#00E5FF" stop-opacity="0.34"/><stop offset="0.55" stop-color="#00E5FF" stop-opacity="0.07"/><stop offset="1" stop-color="#00E5FF" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="0.08" cy="1.02" r="0.58"><stop offset="0" stop-color="#7C4DFF" stop-opacity="0.22"/><stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="g3" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#00E5FF" stop-opacity="0.9"/><stop offset="1" stop-color="#00E5FF" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.78"><stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.62"/></radialGradient>
+<filter id="blur40" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="42"/></filter>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="1.4"/></filter>
 </defs>
 <rect width="1280" height="720" fill="url(#bg)"/>
-<rect width="1280" height="720" fill="url(#grid)"/>
-<rect width="1280" height="720" fill="url(#noise)"/>
-<ellipse cx="204" cy="72" rx="460" ry="360" fill="url(#glow1)"/>
-<ellipse cx="1152" cy="684" rx="460" ry="396" fill="url(#glow2)"/>
-<rect x="0" y="0" width="6" height="720" fill="url(#accent)"/>
-<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">06 · KRİPTO</text><text x="1224" y="46" text-anchor="end" fill="#F7931A" fill-opacity="0.9">FİNANS</text></g>
-<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
-<text x="56" y="178" class="ttl" font-size="66" fill="#F4F7FB">Canlı Piyasa</text>
-<text x="60" y="216" class="t" font-size="17" fill="#8FA0BD" letter-spacing="3">KRİPTO TAKİP · PORTFÖY</text>
-<rect x="60" y="238" width="70" height="2" fill="#F7931A" fill-opacity="0.75"/>
-<rect x="56" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
-<circle cx="90" cy="312" r="16" fill="#F7931A" fill-opacity="0.18" stroke="#F7931A" stroke-opacity="0.55"/>
-<text x="90" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#F7931A">B</text>
-<text x="116" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">BTC</text>
-<text x="116" y="328" class="t" font-size="11" fill="#6B7C93">Bitcoin</text>
-<text x="74" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$68.412</text>
-<text x="74" y="390" class="m" font-size="12" fill="#4ADE80">+2,41%</text>
-<polyline points="152,378 159,371 166,364 173,378 180,371 187,364 194,378 201,371 208,364 215,378 222,371 229,364" fill="none" stroke="#4ADE80" stroke-width="1.8" stroke-opacity="0.85"/>
-<rect x="252" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
-<circle cx="286" cy="312" r="16" fill="#8FA6FF" fill-opacity="0.18" stroke="#8FA6FF" stroke-opacity="0.55"/>
-<text x="286" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#8FA6FF">E</text>
-<text x="312" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">ETH</text>
-<text x="312" y="328" class="t" font-size="11" fill="#6B7C93">Ethereum</text>
-<text x="270" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$3.284</text>
-<text x="270" y="390" class="m" font-size="12" fill="#4ADE80">+1,08%</text>
-<polyline points="348,378 355,371 362,364 369,378 376,371 383,364 390,378 397,371 404,364 411,378 418,371 425,364" fill="none" stroke="#4ADE80" stroke-width="1.8" stroke-opacity="0.85"/>
-<rect x="448" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
-<circle cx="482" cy="312" r="16" fill="#14F195" fill-opacity="0.18" stroke="#14F195" stroke-opacity="0.55"/>
-<text x="482" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#14F195">S</text>
-<text x="508" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">SOL</text>
-<text x="508" y="328" class="t" font-size="11" fill="#6B7C93">Solana</text>
-<text x="466" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$184,20</text>
-<text x="466" y="390" class="m" font-size="12" fill="#F87171">-0,62%</text>
-<polyline points="544,378 551,371 558,364 565,378 572,371 579,364 586,378 593,371 600,364 607,378 614,371 621,364" fill="none" stroke="#F87171" stroke-width="1.8" stroke-opacity="0.85"/>
-<rect x="644" y="278" width="176" height="128" rx="14" fill="#0C1420" fill-opacity="0.94" stroke="#1E2B3D"/>
-<circle cx="678" cy="312" r="16" fill="#E84142" fill-opacity="0.18" stroke="#E84142" stroke-opacity="0.55"/>
-<text x="678" y="318" text-anchor="middle" class="m" font-size="11" font-weight="700" fill="#E84142">A</text>
-<text x="704" y="310" class="t" font-size="14" font-weight="600" fill="#EAF1F8">AVAX</text>
-<text x="704" y="328" class="t" font-size="11" fill="#6B7C93">Avalanche</text>
-<text x="662" y="368" class="t" font-size="19" font-weight="700" fill="#EAF1F8">$41,88</text>
-<text x="662" y="390" class="m" font-size="12" fill="#4ADE80">+4,15%</text>
-<polyline points="740,378 747,371 754,364 761,378 768,371 775,364 782,378 789,371 796,364 803,378 810,371 817,364" fill="none" stroke="#4ADE80" stroke-width="1.8" stroke-opacity="0.85"/>
-<rect x="56" y="432" width="748" height="206" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>
-<text x="80" y="464" class="t" font-size="13" fill="#8FA0BD" letter-spacing="2">BTC / TRY · 24 SAAT</text>
-<text x="80" y="498" class="t" font-size="26" font-weight="700" fill="#EAF1F8">₺2.184.500</text>
-<text x="256" y="496" class="m" font-size="12" fill="#4ADE80">+2,41%</text>
-<polyline points="86,579 114,580 141,574 169,568 196,576 224,574 251,560 279,563 306,568 334,562 361,556 389,563 416,547 444,551 471,554 499,556 526,553 554,546 581,544 609,547 636,543 664,543 691,534 719,534 746,538 774,570" fill="none" stroke="#F7931A" stroke-width="2.4" stroke-linejoin="round"/>
-<polygon points="86,579 114,580 141,574 169,568 196,576 224,574 251,560 279,563 306,568 334,562 361,556 389,563 416,547 444,551 471,554 499,556 526,553 554,546 581,544 609,547 636,543 664,543 691,534 719,534 746,538 774,570 774,602 86,602" fill="#F7931A" fill-opacity="0.12"/>
-<line x1="86" y1="602" x2="774" y2="602" stroke="#FFFFFF" stroke-opacity="0.08"/>
-<rect x="828" y="278" width="396" height="360" rx="16" fill="#0C1420" fill-opacity="0.95" stroke="#1E2B3D"/>
-<text x="852" y="310" class="t" font-size="12" fill="#22D3EE" letter-spacing="2">DÖNÜŞTÜRÜCÜ</text>
-<rect x="852" y="326" width="348" height="46" rx="10" fill="#080E17" stroke="#1E2B3D"/>
-<text x="870" y="355" class="t" font-size="15" fill="#EAF1F8">1 BTC</text>
-<text x="1182" y="355" text-anchor="end" class="m" font-size="12" fill="#6B7C93">BTC</text>
-<text x="1026.0" y="402" text-anchor="middle" class="m" font-size="13" fill="#F7931A">⇅</text>
-<rect x="852" y="414" width="348" height="46" rx="10" fill="#080E17" stroke="#1E2B3D"/>
-<text x="870" y="443" class="t" font-size="15" fill="#EAF1F8">2.184.500 TRY</text>
-<text x="1182" y="443" text-anchor="end" class="m" font-size="12" fill="#6B7C93">TRY</text>
-<line x1="852" y1="482" x2="1200" y2="482" stroke="#FFFFFF" stroke-opacity="0.08"/>
-<text x="852" y="512" class="t" font-size="12" fill="#22D3EE" letter-spacing="2">PORTFÖY</text>
-<text x="852" y="540" class="t" font-size="13" fill="#B9C6D6">BTC</text>
-<text x="1200" y="540" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">0,42 · ₺917.490</text>
-<text x="852" y="570" class="t" font-size="13" fill="#B9C6D6">ETH</text>
-<text x="1200" y="570" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">3,10 · ₺318.700</text>
-<text x="852" y="600" class="t" font-size="13" fill="#B9C6D6">SOL</text>
-<text x="1200" y="600" text-anchor="end" class="m" font-size="12" fill="#8FA0BD">18 · ₺103.560</text>
-<line x1="56" y1="648" x2="1224" y2="648" stroke="#FFFFFF" stroke-opacity="0.07"/>
-<text x="56" y="680" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
-<text x="56" y="702" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
-<text x="1224" y="680" text-anchor="end" class="cap" font-size="11" fill="#F7931A">EL EMEĞİ · İMZALI</text>
-<text x="1224" y="702" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+<g stroke="#00E5FF" stroke-opacity="0.16" stroke-width="1">
+<line x1="88" y1="470" x2="-2840" y2="720"/>
+<line x1="134" y1="470" x2="-2550" y2="720"/>
+<line x1="180" y1="470" x2="-2260" y2="720"/>
+<line x1="226" y1="470" x2="-1970" y2="720"/>
+<line x1="272" y1="470" x2="-1680" y2="720"/>
+<line x1="318" y1="470" x2="-1390" y2="720"/>
+<line x1="364" y1="470" x2="-1100" y2="720"/>
+<line x1="410" y1="470" x2="-810" y2="720"/>
+<line x1="456" y1="470" x2="-520" y2="720"/>
+<line x1="502" y1="470" x2="-230" y2="720"/>
+<line x1="548" y1="470" x2="60" y2="720"/>
+<line x1="594" y1="470" x2="350" y2="720"/>
+<line x1="640" y1="470" x2="640" y2="720"/>
+<line x1="686" y1="470" x2="930" y2="720"/>
+<line x1="732" y1="470" x2="1220" y2="720"/>
+<line x1="778" y1="470" x2="1510" y2="720"/>
+<line x1="824" y1="470" x2="1800" y2="720"/>
+<line x1="870" y1="470" x2="2090" y2="720"/>
+<line x1="916" y1="470" x2="2380" y2="720"/>
+<line x1="962" y1="470" x2="2670" y2="720"/>
+<line x1="1008" y1="470" x2="2960" y2="720"/>
+<line x1="1054" y1="470" x2="3250" y2="720"/>
+<line x1="1100" y1="470" x2="3540" y2="720"/>
+<line x1="1146" y1="470" x2="3830" y2="720"/>
+<line x1="1192" y1="470" x2="4120" y2="720"/>
+<line x1="0" y1="470" x2="1280" y2="470" stroke-opacity="0.05"/>
+<line x1="0" y1="475" x2="1280" y2="475" stroke-opacity="0.05"/>
+<line x1="0" y1="482" x2="1280" y2="482" stroke-opacity="0.06"/>
+<line x1="0" y1="492" x2="1280" y2="492" stroke-opacity="0.07"/>
+<line x1="0" y1="506" x2="1280" y2="506" stroke-opacity="0.08"/>
+<line x1="0" y1="527" x2="1280" y2="527" stroke-opacity="0.10"/>
+<line x1="0" y1="556" x2="1280" y2="556" stroke-opacity="0.12"/>
+<line x1="0" y1="597" x2="1280" y2="597" stroke-opacity="0.16"/>
+<line x1="0" y1="655" x2="1280" y2="655" stroke-opacity="0.20"/>
+</g>
+<circle cx="1090" cy="110" r="300" fill="url(#g3)" opacity="0.5" filter="url(#blur40)"/>
+<circle cx="150" cy="680" r="260" fill="#7C4DFF" fill-opacity="0.10" filter="url(#blur40)"/>
+<rect width="1280" height="720" fill="url(#g1)"/>
+<rect width="1280" height="720" fill="url(#g2)"/>
+<ellipse cx="1060" cy="360" rx="320" ry="128" fill="none" stroke="#00E5FF" stroke-opacity="0.13" stroke-width="1.5" transform="rotate(-16 1060 360)"/>
+<ellipse cx="1060" cy="360" rx="212" ry="84" fill="none" stroke="#7C4DFF" stroke-opacity="0.13" stroke-width="1.5" transform="rotate(-16 1060 360)"/>
+<circle cx="0" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="128" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="256" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="384" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="512" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="640" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="768" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="896" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1024" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1152" cy="0" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="96" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="224" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="352" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="480" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="608" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="736" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="864" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="992" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1120" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1248" cy="32" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="64" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="192" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="320" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="448" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="576" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="704" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="832" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="960" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1088" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1216" cy="64" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="32" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="160" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="288" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="416" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="544" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="672" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="800" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="928" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1056" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1184" cy="96" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="0" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="128" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="256" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="384" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="512" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="640" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="768" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="896" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1024" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1152" cy="128" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="96" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="224" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="352" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="480" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="608" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="736" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="864" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="992" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1120" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1248" cy="160" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="64" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="192" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="320" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="448" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="576" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="704" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="832" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="960" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1088" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1216" cy="192" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="32" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="160" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="288" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="416" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="544" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="672" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="800" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="928" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1056" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1184" cy="224" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="0" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="128" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="256" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="384" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="512" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="640" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="768" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="896" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1024" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1152" cy="256" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="96" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="224" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="352" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="480" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="608" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="736" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="864" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="992" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1120" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1248" cy="288" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="64" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="192" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="320" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="448" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="576" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="704" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="832" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="960" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1088" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1216" cy="320" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="32" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="160" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="288" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="416" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="544" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="672" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="800" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="928" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1056" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1184" cy="352" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="0" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="128" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="256" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="384" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="512" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="640" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="768" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="896" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1024" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1152" cy="384" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="96" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="224" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="352" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="480" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="608" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="736" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="864" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="992" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1120" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1248" cy="416" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="64" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="192" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="320" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="448" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="576" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="704" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="832" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="960" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1088" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1216" cy="448" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="32" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="160" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="288" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="416" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="544" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="672" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="800" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="928" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1056" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1184" cy="480" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="0" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="128" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="256" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="384" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="512" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="640" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="768" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="896" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1024" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1152" cy="512" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="96" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="224" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="352" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="480" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="608" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="736" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="864" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="992" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1120" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1248" cy="544" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="64" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="192" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="320" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="448" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="576" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="704" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="832" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="960" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1088" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1216" cy="576" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="32" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="160" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="288" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="416" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="544" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="672" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="800" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="928" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1056" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1184" cy="608" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="0" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="128" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="256" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="384" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="512" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="640" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="768" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="896" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1024" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1152" cy="640" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="96" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="224" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="352" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="480" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="608" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="736" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="864" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="992" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1120" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1248" cy="672" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="64" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="192" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="320" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="448" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="576" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="704" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="832" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="960" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1088" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<circle cx="1216" cy="704" r="1.4" fill="#00E5FF" fill-opacity="0.10"/>
+<rect x="22" y="22" width="1236" height="676" rx="18" fill="none" stroke="url(#acv)" stroke-opacity="0.30" stroke-width="1.2"/>
+<path d="M22 56 L22 22 L56 22" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-opacity="0.85"/>
+<path d="M1258 56 L1258 22 L1224 22" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-opacity="0.85"/>
+<path d="M22 664 L22 698 L56 698" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-opacity="0.85"/>
+<path d="M1258 664 L1258 698 L1224 698" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-opacity="0.85"/>
+<rect x="56" y="48" width="146" height="30" rx="15" fill="#00E5FF" fill-opacity="0.16" stroke="#00E5FF" stroke-opacity="0.55"/>
+<circle cx="76" cy="63" r="3.5" fill="#00E5FF"/>
+<text x="90" y="67.5" class="cap" font-size="9.5" fill="#00E5FF">ÖNE ÇIKAN</text>
+<text x="216" y="67.5" class="cap" font-size="10.5" fill="#7C4DFF" fill-opacity="0.9">FİNANS · CANLI VERİ</text>
+<text x="1224" y="67.5" text-anchor="end" class="m" font-size="11" fill="#5A6B88">P1 · Enes Öztürk</text>
+<line x1="56" y1="98" x2="1224" y2="98" stroke="url(#ac)" stroke-opacity="0.35"/>
+<text x="54" y="228" class="ttl" font-size="76" fill="url(#ac)" filter="url(#glow)">Kripto Takip</text>
+<text x="54" y="228" class="ttl" font-size="76" fill="#F8FBFF" fill-opacity="0.94">Kripto Takip</text>
+<rect x="58" y="258" width="120" height="3.5" rx="1.75" fill="url(#ac)"/>
+<circle cx="186" cy="259.5" r="4" fill="#7C4DFF" filter="url(#glow)"/>
+<text x="58" y="304" class="ser" font-size="20" fill="#A9BACE">CoinGecko akışı · sparkline · dönüştürücü · portföy</text>
+<rect x="54" y="342" width="600" height="42" rx="12" fill="#070C14" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<rect x="54" y="342" width="3" height="42" rx="1.5" fill="#00E5FF" fill-opacity="0.9"/>
+<circle cx="78" cy="363" r="3" fill="#00E5FF" filter="url(#glow)"/>
+<text x="94" y="368" class="t" font-size="14" fill="#BAC9DA">Anlık fiyat ve 24 saatlik değişim</text>
+<rect x="54" y="394" width="600" height="42" rx="12" fill="#070C14" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<rect x="54" y="394" width="3" height="42" rx="1.5" fill="#7C4DFF" fill-opacity="0.9"/>
+<circle cx="78" cy="415" r="3" fill="#7C4DFF" filter="url(#glow)"/>
+<text x="94" y="420" class="t" font-size="14" fill="#BAC9DA">Her coin için mini fiyat grafiği</text>
+<rect x="54" y="446" width="600" height="42" rx="12" fill="#070C14" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<rect x="54" y="446" width="3" height="42" rx="1.5" fill="#00E5FF" fill-opacity="0.9"/>
+<circle cx="78" cy="467" r="3" fill="#00E5FF" filter="url(#glow)"/>
+<text x="94" y="472" class="t" font-size="14" fill="#BAC9DA">Coin ↔ TRY dönüştürücü ve portföy</text>
+<rect x="666" y="352" width="170" height="112" rx="16" fill="#060A12" fill-opacity="0.9" stroke="url(#acv)" stroke-opacity="0.22"/>
+<rect x="666" y="352" width="170" height="3" rx="1.5" fill="#00E5FF"/>
+<rect x="666" y="352" width="170" height="56" rx="16" fill="#00E5FF" fill-opacity="0.06"/>
+<text x="686" y="404" class="ttl" font-size="30" fill="#00E5FF" filter="url(#glow)">24/7</text>
+<text x="686" y="436" class="cap" font-size="9" fill="#7E8FA8">AKIŞ</text>
+<rect x="852" y="352" width="170" height="112" rx="16" fill="#060A12" fill-opacity="0.9" stroke="url(#acv)" stroke-opacity="0.22"/>
+<rect x="852" y="352" width="170" height="3" rx="1.5" fill="#7C4DFF"/>
+<rect x="852" y="352" width="170" height="56" rx="16" fill="#7C4DFF" fill-opacity="0.06"/>
+<text x="872" y="404" class="ttl" font-size="30" fill="#7C4DFF" filter="url(#glow)">API</text>
+<text x="872" y="436" class="cap" font-size="9" fill="#7E8FA8">COINGECKO</text>
+<rect x="1038" y="352" width="170" height="112" rx="16" fill="#060A12" fill-opacity="0.9" stroke="url(#acv)" stroke-opacity="0.22"/>
+<rect x="1038" y="352" width="170" height="3" rx="1.5" fill="#7C4DFF"/>
+<rect x="1038" y="352" width="170" height="56" rx="16" fill="#7C4DFF" fill-opacity="0.06"/>
+<text x="1058" y="404" class="ttl" font-size="30" fill="#7C4DFF" filter="url(#glow)">SPA</text>
+<text x="1058" y="436" class="cap" font-size="9" fill="#7E8FA8">REACT</text>
+<rect x="0" y="602" width="1280" height="118" fill="#03060A" fill-opacity="0.82"/>
+<line x1="0" y1="602" x2="1280" y2="602" stroke="url(#ac)" stroke-opacity="0.5"/>
+<circle cx="72" cy="650" r="17" fill="none" stroke="url(#ac)" stroke-width="1.6"/>
+<text x="72" y="656" text-anchor="middle" class="cap" font-size="10" fill="#7C4DFF">EÖ</text>
+<text x="102" y="648" class="t" font-size="20" font-weight="600" fill="#F2F6FB">Enes Öztürk</text>
+<text x="102" y="674" class="m" font-size="11.5" fill="#6B7C93">github.com/EnesBinMalik · MIT Lisansı</text>
+<text x="1224" y="648" text-anchor="end" class="m" font-size="11" fill="#7C4DFF">© 2026 Enes Öztürk — tüm hakları saklıdır</text>
+<text x="1224" y="674" text-anchor="end" class="cap" font-size="9.5" fill="#3F4C60">TASARIM &amp; GELİŞTİRME · ENES ÖZTÜRK</text>
+<rect width="1280" height="720" fill="url(#vig)"/>
 </svg>

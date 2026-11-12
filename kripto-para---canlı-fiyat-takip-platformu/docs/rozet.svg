@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Kripto Takip — Enes Öztürk imzalı rozet">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060B14"/><stop offset="55%" stop-color="#0A1220"/><stop offset="100%" stop-color="#121E33"/></linearGradient><linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7931A"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.18"/><stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.03"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.08"/></linearGradient><radialGradient id="glow" cx="50%" cy="40%" r="55%"><stop offset="0" stop-color="#F7931A" stop-opacity="0.28"/><stop offset="100%" stop-color="#F7931A" stop-opacity="0"/></radialGradient><style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:700;letter-spacing:2.6px}</style></defs>
-<rect width="600" height="600" rx="28" fill="url(#bg)"/>
-<ellipse cx="300" cy="250" rx="250" ry="220" fill="url(#glow)"/>
-<path d="M300 92 L480 160 V312 C480 410 398 476 300 508 C202 476 120 410 120 312 V160 Z" fill="#0A1220" fill-opacity="0.96" stroke="url(#acc)" stroke-width="4"/>
-<g transform="translate(300,300) scale(0.84) translate(-300,-300)"><path d="M300 92 L480 160 V312 C480 410 398 476 300 508 C202 476 120 410 120 312 V160 Z" fill="url(#metal)" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="1.5"/></g>
-<circle cx="300" cy="238" r="72" fill="none" stroke="#F7931A" stroke-opacity="0.6" stroke-width="2.5"/>
-<text x="300" y="272" text-anchor="middle" class="t" font-size="72" font-weight="700" fill="#F7931A">06</text>
-<text x="300" y="352" text-anchor="middle" class="t" font-size="21" font-weight="700" fill="#E9F0FB">Kripto Takip</text>
-<text x="300" y="380" text-anchor="middle" class="m" font-size="11.5" fill="#8FA0BD">Kodluyoruz ödevi · Enes Öztürk</text>
-<g transform="rotate(-5 300 428)"><rect x="212" y="412" width="176" height="32" rx="16" fill="#F7931A" fill-opacity="0.13" stroke="#F7931A" stroke-opacity="0.6" stroke-width="1.5"/>
-<text x="300" y="433" text-anchor="middle" class="cap" font-size="11.5" fill="#F7931A">TAMAMLANDI</text></g>
-<text x="300" y="478" text-anchor="middle" class="m" font-size="10" fill="#5A6B88">github.com/EnesBinMalik</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Kripto Takip rozeti">
+<style>.t{font-family:'Segoe UI',system-ui,sans-serif}.ttl{font-family:'Segoe UI',system-ui,sans-serif;font-weight:700;letter-spacing:-1.5px}.m{font-family:'Consolas',monospace}.cap{font-family:'Segoe UI',sans-serif;font-weight:700;letter-spacing:4px}.ser{font-family:Georgia,serif;font-style:italic}</style>
+<defs>
+<linearGradient id="ac" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C4DFF"/></linearGradient>
+<radialGradient id="gl" cx="0.5" cy="0.42" r="0.55"><stop offset="0" stop-color="#00E5FF" stop-opacity="0.22"/><stop offset="1" stop-color="#00E5FF" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="600" height="600" fill="#05070C"/>
+<rect width="600" height="600" fill="url(#gl)"/>
+<ellipse cx="300.0" cy="300.0" rx="270" ry="112" fill="none" stroke="#7C4DFF" stroke-opacity="0.30" stroke-width="1.6" transform="rotate(-22 300.0 300.0)"/>
+<ellipse cx="300.0" cy="300.0" rx="270" ry="112" fill="none" stroke="#00E5FF" stroke-opacity="0.16" stroke-width="1.6" transform="rotate(22 300.0 300.0)"/>
+<circle cx="537.4" cy="342.0" r="4.5" fill="#00E5FF"/>
+<polygon points="486.2,192.5 486.2,407.5 300.0,515.0 113.8,407.5 113.8,192.5 300.0,85.0" fill="#080E18" stroke="url(#ac)" stroke-width="3.2"/>
+<polygon points="486.2,192.5 486.2,407.5 300.0,515.0 113.8,407.5 113.8,192.5 300.0,85.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1" transform="scale(0.89) translate(33.0 33.0)"/>
+<text x="300.0" y="204.0" text-anchor="middle" class="cap" font-size="10" fill="#7C4DFF">ENES ÖZTÜRK</text>
+<text x="300.0" y="306.0" text-anchor="middle" class="ttl" font-size="72" fill="url(#ac)">₿</text>
+<line x1="220.0" y1="334.0" x2="380.0" y2="334.0" stroke="url(#ac)" stroke-width="2"/>
+<text x="300.0" y="366.0" text-anchor="middle" class="cap" font-size="10.5" fill="#93A6BE">ÖNE ÇIKAN PROJE</text>
+<text x="300.0" y="394.0" text-anchor="middle" class="m" font-size="10" fill="#4E5E76">MIT · P1</text>
 </svg>
