@@ -714,13 +714,60 @@ PROJECTS = [
 ]
 
 
+
+# ————————————————————————— DEPO KAPAĞI —————————————————————————
+def depo_kapagi() -> str:
+    W, H = 1280, 640
+    C1, C2 = "#22D3EE", "#A78BFA"
+    L = base(W, H, "Kodluyoruz — İlk GitHub Depom", C1, C2, "PROJE ARŞİVİ", "KODLUYORUZ · DEV-1")
+    a = L.append
+    a(f'<text x="56" y="176" class="ttl" font-size="64" fill="#E9F0FB">Kodluyoruz Arşivi</text>')
+    a(f'<text x="60" y="214" class="t" font-size="18" fill="#8FA0BD" letter-spacing="3">İLK GITHUB DEPOM · 12 PROJE</text>')
+    a(f'<rect x="60" y="236" width="70" height="2" fill="{C1}" fill-opacity="0.75"/>')
+    stats = [("12", "proje", C1), ("13", "kapak", C2), ("12", "rozet", "#FBBF24")]
+    for i, (n, lab, col) in enumerate(stats):
+        x = 56 + i * 150
+        a(f'<rect x="{x}" y="270" width="136" height="84" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>')
+        a(f'<rect x="{x}" y="270" width="4" height="84" rx="2" fill="{col}"/>')
+        a(f'<text x="{x+20}" y="312" class="t" font-size="26" font-weight="700" fill="{col}">{n}</text>')
+        a(f'<text x="{x+20}" y="336" class="m" font-size="11" fill="#8FA0BD">{lab}</text>')
+    names = ["Atelier", "Not Defteri", "VKİ &amp; Diyet", "Kripto", "Portfolyo", "Chat",
+             "Kitap Arama", "Form Yapımcısı", "Hafıza", "Taş Kağıt Makas"]
+    for i, n in enumerate(names):
+        col = i % 2
+        row = i // 2
+        x = 56 + col * 200
+        y = 392 + row * 40
+        a(f'<circle cx="{x+6}" cy="{y-4}" r="3.5" fill="{C1 if i % 2 == 0 else C2}" fill-opacity="0.9"/>')
+        a(f'<text x="{x+18}" y="{y}" class="m" font-size="12.5" fill="#9DB0C8">{n}</text>')
+    px, py, pw, ph = 720, 132, 504, 410
+    a(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="16" fill="#0B1420" fill-opacity="0.95" stroke="#1E3050"/>')
+    a(f'<text x="{px+26}" y="{py+36}" class="t" font-size="12" fill="{C1}" letter-spacing="2">HER PROJEDE</text>')
+    for i, t in enumerate(["Elle çizilmiş 1280x720 kapak", "600x600 imza rozeti",
+                           "Künyeli README: öne çıkanlar, teknoloji", "Kopyalanabilir kurulum adımları",
+                           "Bağımsız package.json", "Enes Öztürk imzası"]):
+        a(f'<text x="{px+26}" y="{py+76+i*44}" class="m" font-size="12.5" fill="#9DB0C8">✓ {t}</text>')
+    a(f'<line x1="{px+26}" y1="{py+300}" x2="{px+pw-26}" y2="{py+300}" stroke="#FFFFFF" stroke-opacity="0.07"/>')
+    a(f'<text x="{px+26}" y="{py+334}" class="m" font-size="11.5" fill="#5A6B88">$ cd &lt;proje&gt; &amp;&amp; npm install &amp;&amp; npm run dev</text>')
+    footer(L, W, H, C1)
+    L.append("</svg>")
+    return "\n".join(L) + "\n"
+
+
 def main() -> None:
+    root_docs = ROOT / "docs"
+    root_docs.mkdir(exist_ok=True)
+    (root_docs / "kapak.svg").write_text(depo_kapagi(), encoding="utf-8")
+    print("✓ docs/kapak.svg")
     for slug, ad, no, c1, c2, fn in PROJECTS:
         d = ROOT / slug / "docs"
+        if not d.parent.exists():
+            print("· atlandı (yok):", slug)
+            continue
         d.mkdir(parents=True, exist_ok=True)
         (d / "kapak.svg").write_text(fn(), encoding="utf-8")
         (d / "rozet.svg").write_text(rozet(ad, no, c1, c2), encoding="utf-8")
-        print(f"✓ {slug}/docs/kapak.svg · rozet.svg")
+        print(f"✓ {slug}/docs · kapak.svg · rozet.svg")
 
 
 if __name__ == "__main__":

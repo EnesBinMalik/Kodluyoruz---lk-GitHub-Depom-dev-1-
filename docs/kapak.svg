@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Kodluyoruz — İlk GitHub Depom — Enes Öztürk">
+<title>Kodluyoruz — İlk GitHub Depom · Enes Öztürk</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070C"/><stop offset="52%" stop-color="#0B1019"/><stop offset="100%" stop-color="#151A26"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="60%" stop-color="#A78BFA"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0.05"/></linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22D3EE" stop-opacity="0.30"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.26"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+<pattern id="noise" width="3" height="3" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#FFFFFF" fill-opacity="0.05"/></pattern>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}.m{font-family:'JetBrains Mono','Cascadia Code',Consolas,monospace}.ttl{font-family:Georgia,'Times New Roman',serif;letter-spacing:-0.5px}.cap{font-family:'Segoe UI',Inter,system-ui,-apple-system,Arial,sans-serif;font-weight:600;letter-spacing:3.2px}</style>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<rect width="1280" height="640" fill="url(#noise)"/>
+<ellipse cx="204" cy="64" rx="460" ry="320" fill="url(#glow1)"/>
+<ellipse cx="1152" cy="608" rx="460" ry="352" fill="url(#glow2)"/>
+<rect x="0" y="0" width="6" height="640" fill="url(#accent)"/>
+<g class="m" font-size="11.5" fill="#5A6B88" letter-spacing="2"><text x="56" y="46">KODLUYORUZ</text><text x="176" y="46" fill="#243044">/</text><text x="194" y="46">KODLUYORUZ · DEV-1</text><text x="1224" y="46" text-anchor="end" fill="#22D3EE" fill-opacity="0.9">PROJE ARŞİVİ</text></g>
+<line x1="56" y1="64" x2="1224" y2="64" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="176" class="ttl" font-size="64" fill="#E9F0FB">Kodluyoruz Arşivi</text>
+<text x="60" y="214" class="t" font-size="18" fill="#8FA0BD" letter-spacing="3">İLK GITHUB DEPOM · 12 PROJE</text>
+<rect x="60" y="236" width="70" height="2" fill="#22D3EE" fill-opacity="0.75"/>
+<rect x="56" y="270" width="136" height="84" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="56" y="270" width="4" height="84" rx="2" fill="#22D3EE"/>
+<text x="76" y="312" class="t" font-size="26" font-weight="700" fill="#22D3EE">12</text>
+<text x="76" y="336" class="m" font-size="11" fill="#8FA0BD">proje</text>
+<rect x="206" y="270" width="136" height="84" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="206" y="270" width="4" height="84" rx="2" fill="#A78BFA"/>
+<text x="226" y="312" class="t" font-size="26" font-weight="700" fill="#A78BFA">13</text>
+<text x="226" y="336" class="m" font-size="11" fill="#8FA0BD">kapak</text>
+<rect x="356" y="270" width="136" height="84" rx="14" fill="#0B1420" fill-opacity="0.92" stroke="#1E3050"/>
+<rect x="356" y="270" width="4" height="84" rx="2" fill="#FBBF24"/>
+<text x="376" y="312" class="t" font-size="26" font-weight="700" fill="#FBBF24">12</text>
+<text x="376" y="336" class="m" font-size="11" fill="#8FA0BD">rozet</text>
+<circle cx="62" cy="388" r="3.5" fill="#22D3EE" fill-opacity="0.9"/>
+<text x="74" y="392" class="m" font-size="12.5" fill="#9DB0C8">Atelier</text>
+<circle cx="262" cy="388" r="3.5" fill="#A78BFA" fill-opacity="0.9"/>
+<text x="274" y="392" class="m" font-size="12.5" fill="#9DB0C8">Not Defteri</text>
+<circle cx="62" cy="428" r="3.5" fill="#22D3EE" fill-opacity="0.9"/>
+<text x="74" y="432" class="m" font-size="12.5" fill="#9DB0C8">VKİ &amp; Diyet</text>
+<circle cx="262" cy="428" r="3.5" fill="#A78BFA" fill-opacity="0.9"/>
+<text x="274" y="432" class="m" font-size="12.5" fill="#9DB0C8">Kripto</text>
+<circle cx="62" cy="468" r="3.5" fill="#22D3EE" fill-opacity="0.9"/>
+<text x="74" y="472" class="m" font-size="12.5" fill="#9DB0C8">Portfolyo</text>
+<circle cx="262" cy="468" r="3.5" fill="#A78BFA" fill-opacity="0.9"/>
+<text x="274" y="472" class="m" font-size="12.5" fill="#9DB0C8">Chat</text>
+<circle cx="62" cy="508" r="3.5" fill="#22D3EE" fill-opacity="0.9"/>
+<text x="74" y="512" class="m" font-size="12.5" fill="#9DB0C8">Kitap Arama</text>
+<circle cx="262" cy="508" r="3.5" fill="#A78BFA" fill-opacity="0.9"/>
+<text x="274" y="512" class="m" font-size="12.5" fill="#9DB0C8">Form Yapımcısı</text>
+<circle cx="62" cy="548" r="3.5" fill="#22D3EE" fill-opacity="0.9"/>
+<text x="74" y="552" class="m" font-size="12.5" fill="#9DB0C8">Hafıza</text>
+<circle cx="262" cy="548" r="3.5" fill="#A78BFA" fill-opacity="0.9"/>
+<text x="274" y="552" class="m" font-size="12.5" fill="#9DB0C8">Taş Kağıt Makas</text>
+<rect x="720" y="132" width="504" height="410" rx="16" fill="#0B1420" fill-opacity="0.95" stroke="#1E3050"/>
+<text x="746" y="168" class="t" font-size="12" fill="#22D3EE" letter-spacing="2">HER PROJEDE</text>
+<text x="746" y="208" class="m" font-size="12.5" fill="#9DB0C8">✓ Elle çizilmiş 1280x720 kapak</text>
+<text x="746" y="252" class="m" font-size="12.5" fill="#9DB0C8">✓ 600x600 imza rozeti</text>
+<text x="746" y="296" class="m" font-size="12.5" fill="#9DB0C8">✓ Künyeli README: öne çıkanlar, teknoloji</text>
+<text x="746" y="340" class="m" font-size="12.5" fill="#9DB0C8">✓ Kopyalanabilir kurulum adımları</text>
+<text x="746" y="384" class="m" font-size="12.5" fill="#9DB0C8">✓ Bağımsız package.json</text>
+<text x="746" y="428" class="m" font-size="12.5" fill="#9DB0C8">✓ Enes Öztürk imzası</text>
+<line x1="746" y1="432" x2="1198" y2="432" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="746" y="466" class="m" font-size="11.5" fill="#5A6B88">$ cd &lt;proje&gt; &amp;&amp; npm install &amp;&amp; npm run dev</text>
+<line x1="56" y1="568" x2="1224" y2="568" stroke="#FFFFFF" stroke-opacity="0.07"/>
+<text x="56" y="600" class="t" font-size="19" font-weight="600" fill="#E9F0FB">Enes Öztürk</text>
+<text x="56" y="622" class="m" font-size="11.5" fill="#5A6B88">github.com/EnesBinMalik</text>
+<text x="1224" y="600" text-anchor="end" class="cap" font-size="11" fill="#22D3EE">EL EMEĞİ · İMZALI</text>
+<text x="1224" y="622" text-anchor="end" class="m" font-size="11" fill="#3F4C60">tasarım &amp; geliştirme · Enes Öztürk</text>
+</svg>
